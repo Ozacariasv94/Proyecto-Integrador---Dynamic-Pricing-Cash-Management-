@@ -6,7 +6,7 @@
 
 ## Descripción del Proyecto
 
-Este proyecto implementa una solución analítica de **Revenue Management** diseñada para optimizar la estrategia de precios de la cartera de productos de **Cash Management** en banca corporativa y empresarial. 
+Este proyecto implementa una solución analítica de **Revenue Management** diseñada para optimizar la estrategia de precios de la cartera de productos de **Cash Management** en banca corporativa e institucional.
 
 El sistema analiza la relación transaccional de cada cliente y modela su sensibilidad/elasticidad precio ante variaciones de tarifa. A través de un enfoque de **ecualización de precios**, el algoritmo propone reequilibrar las comisiones y márgenes de los productos contratados por el cliente (subiendo tarifas en productos inelásticos y ajustando o bajando comisiones en productos sensibles), permitiendo maximizar el ingreso global de la cuenta con un riesgo controlado de rechazo o *churn*.
 
@@ -18,7 +18,7 @@ La **función objetivo** del proyecto es la **maximización del ingreso total po
 
 1. **Restricción Regulatoria:** Cumplir estrictamente con los límites y techos de tarifas máximas registradas ante **Banxico**, así como con las políticas de margen del banco.
 2. **Modelado de Elasticidad:** Estimar la sensibilidad del cliente y la probabilidad de aceptación comercial (*rango de riesgo*) ante los cambios de precio propuestos.
-3. **Plataforma de Habilitación Comercial (Dashboard APIficado):** Entregar a la fuerza de ventas una herramienta interactiva en tiempo real que muestre:
+3. **Plataforma de Habilitación Comercial (Dashboard APIficado):** Entregar una herramienta interactiva on demand que muestre:
    - El escenario actual (**As-Is**) vs. la optimización recomendada (**To-Be**).
    - Rango de maniobra por producto y probabilidad empírica de aceptación.
    - Un **Pitch de Ventas** automatizado para justificar el ajuste tarifario bajo una narrativa de valor ganar-ganar.
