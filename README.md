@@ -3,9 +3,8 @@
 ![Status](https://img.shields.io/badge/Status-In_Development-blue)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-green)
 ![FastAPI](https://img.shields.io/badge/API-FastAPI-009688)
-![Regulation](https://img.shields.io/badge/Compliance-Banxico-red)
 
-## 📌 Descripción del Proyecto
+## Descripción del Proyecto
 
 Este proyecto implementa una solución analítica de **Revenue Management** diseñada para optimizar la estrategia de precios de la cartera de productos de **Cash Management** en banca corporativa y empresarial. 
 
@@ -13,7 +12,7 @@ El sistema analiza la relación transaccional de cada cliente y modela su sensib
 
 ---
 
-## 🎯 Objetivo del Proyecto
+## Objetivo del Proyecto
 
 La **función objetivo** del proyecto es la **maximización del ingreso total por cliente**, sujeta a las siguientes fronteras y capacidades:
 
@@ -26,10 +25,10 @@ La **función objetivo** del proyecto es la **maximización del ingreso total po
 
 ---
 
-## 👥 Integrantes del Equipo
+## Integrantes del Equipo
 
 * **Oscar Benjamín Zacarías Villegas** — Matrícula: `A01797160`  
-  *Rol:* Machine Learning Engineer / Lead Architect
+  *Rol:* Machine Learning Engineer / Architect
 * **Mariana Paola De los Cobos Kingston** — Matrícula: `A01796922`  
   *Rol:* Data Scientist / Financial Analyst
 * **Gerardo Tenorio Castillo** — Matrícula: `A01139576`  
@@ -37,7 +36,7 @@ La **función objetivo** del proyecto es la **maximización del ingreso total po
 
 ---
 
-## 📂 Estructura del Repositorio
+## Estructura del Repositorio
 
 ```text
 .
@@ -50,13 +49,13 @@ La **función objetivo** del proyecto es la **maximización del ingreso total po
 ├── models/
 │   ├── elasticity/             # Modelos de sensibilidad y estimación de elasticidad
 │   ├── optimization/           # Solver matemático de la función objetivo y restricciones
-│   └── artifacts/              # Pipeline de modelos entrenados y serializados (.pkl/.onnx)
+│   └── artifacts/              # Pipeline de modelos entrenados y serializados (.pkl)
 ├── api/
 │   ├── app/                    # Código principal del servicio FastAPI
-│   ├── routes/                 # Endpoints de recomendación /as-is-to-be y /pitch
+│   ├── routes/                 # Endpoints de recomendación
 │   └── tests/                  # Pruebas unitarias y de integración de la API
 ├── dashboard/
-│   ├── src/                    # Frontend interactivo (React / Streamlit)
+│   ├── src/                    # Frontend interactivo
 │   ├── components/             # Visualizadores de ecualización, sliders y rangos de riesgo
-│   └── assets/                 # Recursos gráficos y estilos institucionales
+│   └── assets/                 # Recursos gráficos y estilos
 └── notebooks/                  # Análisis exploratorio (EDA) y prototipado analítico
