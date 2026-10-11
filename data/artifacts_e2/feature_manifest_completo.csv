@@ -1,0 +1,752 @@
+feature_final,feature_origen,familia,subfamilia,transformacion,tipo,disponible_en_t,usa_target,dataset_A,dataset_B,decision,motivo,uso
+num__ops_t,ops_t,Historia transaccional,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__ops_std_3m,ops_std_3m,Historia transaccional,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__ops_delta_1m,ops_delta_1m,Historia transaccional,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__ops_pct_change_1m,ops_pct_change_1m,Historia transaccional,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__ops_hist_n_3,ops_hist_n_3,Historia transaccional,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__ops_hist_n_6,ops_hist_n_6,Historia transaccional,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__tarifa_vigente_t,tarifa_vigente_t,Pricing,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__tarifa_anaquel_t,tarifa_anaquel_t,Pricing,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__posicion_tarifaria,posicion_tarifaria,Pricing,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__descuento_rel_anaquel,descuento_rel_anaquel,Pricing,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__gap_anaquel,gap_anaquel,Pricing,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__delta_tarifa_1m,delta_tarifa_1m,Pricing,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__ingreso_bruto_t,ingreso_bruto_t,Económica / Comisiones,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__repricing_ultimos_3m,repricing_ultimos_3m,Repricing,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__meses_desde_repricing,meses_desde_repricing,Repricing,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__magnitud_ultimo_repricing,magnitud_ultimo_repricing,Repricing,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__mes,mes,Temporal,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__meses_desde_inicio,meses_desde_inicio,Temporal,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__antiguedad_meses,antiguedad_meses,Antigüedad,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__grupo_n_tarifas,grupo_n_tarifas,Contexto grupo,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__grupo_tarifa_media,grupo_tarifa_media,Contexto grupo,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__grupo_tarifa_std,grupo_tarifa_std,Contexto grupo,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__grupo_antiguedad_max_meses,grupo_antiguedad_max_meses,Vinculación,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__grupo_antiguedad_mediana_meses,grupo_antiguedad_mediana_meses,Vinculación,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__grupo_n_clientes,grupo_n_clientes,Vinculación,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__grupo_n_lineas,grupo_n_lineas,Vinculación,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__grupo_n_convenios,grupo_n_convenios,Vinculación,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__grupo_n_unidades,grupo_n_unidades,Vinculación,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__grupo_n_productos_hist,grupo_n_productos_hist,Vinculación,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__grupo_n_subproductos_hist,grupo_n_subproductos_hist,Vinculación,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__grupo_subproductos_por_producto,grupo_subproductos_por_producto,Vinculación,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__grupo_ops_std_3m,grupo_ops_std_3m,Vinculación,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__grupo_ops_cv_6m,grupo_ops_cv_6m,Vinculación,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__share_ops_grupo,share_ops_grupo,Vinculación,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__share_producto_ops_grupo,share_producto_ops_grupo,Vinculación,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__share_subproducto_ops_grupo,share_subproducto_ops_grupo,Vinculación,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__peer_ops_mediana_t,peer_ops_mediana_t,Peers,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__peer_ops_media_t,peer_ops_media_t,Peers,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__peer_tarifa_mediana_t,peer_tarifa_mediana_t,Peers,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__peer_posicion_tarifaria_mediana_t,peer_posicion_tarifaria_mediana_t,Peers,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__peer_n_t,peer_n_t,Peers,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__peer_grupos_n_t,peer_grupos_n_t,Peers,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__ops_vs_peer,ops_vs_peer,Peers,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__tarifa_vs_peer,tarifa_vs_peer,Peers,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__log_ops_t,log_ops_t,Historia transaccional,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__log_tarifa_vigente_t,log_tarifa_vigente_t,Pricing,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__log_tarifa_anaquel_t,log_tarifa_anaquel_t,Pricing,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__log_ingreso_bruto_t,log_ingreso_bruto_t,Económica / Comisiones,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__log_grupo_n_convenios,log_grupo_n_convenios,Vinculación,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__log_grupo_ops_media_3m,log_grupo_ops_media_3m,Vinculación,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__log_peer_ops_mediana_t,log_peer_ops_mediana_t,Peers,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__log_peer_ops_media_t,log_peer_ops_media_t,Peers,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__log_peer_tarifa_mediana_t,log_peer_tarifa_mediana_t,Peers,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__ops_delta_1m_yj,ops_delta_1m_yj,Historia transaccional,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__delta_tarifa_1m_yj,delta_tarifa_1m_yj,Pricing,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__gap_anaquel_yj,gap_anaquel_yj,Pricing,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num__descuento_rel_anaquel_yj,descuento_rel_anaquel_yj,Pricing,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+binary__missing_moneda,missing_moneda,Missing,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+binary__missing_industria,missing_industria,Missing,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+binary__seniority_invalido,seniority_invalido,Antigüedad,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+binary__anaquel_valido,anaquel_valido,Pricing,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+binary__repricing_flag_t,repricing_flag_t,Repricing,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+binary__repricing_ultimo_mes,repricing_ultimo_mes,Repricing,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+binary__peer_calificado_t,peer_calificado_t,Peers,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+binary__ops_lag_1_disponible,ops_lag_1_disponible,Historia transaccional,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+binary__ops_lag_2_disponible,ops_lag_2_disponible,Historia transaccional,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+binary__ops_lag_3_disponible,ops_lag_3_disponible,Historia transaccional,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+binary__ops_lag_6_disponible,ops_lag_6_disponible,Historia transaccional,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cyclic__mes_sin,mes_sin,Temporal,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cyclic__mes_cos,mes_cos,Temporal,,pipeline,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__producto_APIS EMPRESARIALES,producto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__producto_BBVA NET CASH,producto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__producto_CENTRALIZACION DE CUENTAS,producto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__producto_CONCENTRACION INMEDIATA EMPRESARIAL CIE,producto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__producto_CREDIPROVEEDORES,producto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__producto_DEPOSITO EMPRESARIAL,producto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__producto_DEPOSITO EMPRESARIAL DOLARES,producto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__producto_DOMICILIACION,producto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__producto_HOST TO HOST SERVICIOS,producto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__producto_OPERACION T.I.B.,producto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__producto_PAGOS ELECTRONICOS PAGEL,producto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__producto_SERVICIO INTEGRAL DE TESORERIA (SIT),producto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__producto_SERVICIOS BBVA NET CASH,producto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__producto_SERVICIOS T.I.B.,producto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__producto_SWIFT,producto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+"cat_low__industria_AUTOS, COMPONENTS & DURABLE GOODS",industria,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__industria_BASIC MATERIALS,industria,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__industria_BASIC MATERIALS II,industria,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__industria_CAPITAL GOODS & INDUSTRIAL SERVICES,industria,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__industria_CONSTRUCTION & CONSTRUCTION MATERIALS,industria,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__industria_CONSUMER,industria,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__industria_Desconocido,industria,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__industria_ENERGY (OIL & GAS),industria,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__industria_FINANCIAL INSTITUTIONS,industria,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__industria_FINANCIAL SERVICES,industria,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__industria_HEALTHCARE,industria,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__industria_INSTITUTIONS,industria,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__industria_LEISURE & CONSUMER SERVICES,industria,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__industria_REAL ESTATE,industria,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__industria_RETAIL,industria,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+"cat_low__industria_TELECOMS, TECHNOLOGY & MEDIA",industria,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__industria_TRANSPORTATION,industria,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__industria_UTILITIES,industria,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__moneda_Desconocido,moneda,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__moneda_EUR,moneda,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__moneda_MXP,moneda,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__moneda_USD,moneda,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__direccion_ultimo_repricing_bajada,direccion_ultimo_repricing,Repricing,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__direccion_ultimo_repricing_sin_historial,direccion_ultimo_repricing,Repricing,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__direccion_ultimo_repricing_subida,direccion_ultimo_repricing,Repricing,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__peer_nivel_industria_producto,peer_nivel,Peers,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__peer_nivel_no_disponible,peer_nivel,Peers,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__peer_nivel_producto,peer_nivel,Peers,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__trimestre_T1,trimestre,Temporal,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__trimestre_T2,trimestre,Temporal,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__trimestre_T3,trimestre,Temporal,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__trimestre_T4,trimestre,Temporal,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+"cat_low__posicion_tarifaria_bin_(.25,.50]",posicion_tarifaria_bin,Binning,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+"cat_low__posicion_tarifaria_bin_(.50,.75]",posicion_tarifaria_bin,Binning,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+"cat_low__posicion_tarifaria_bin_(.75,1]",posicion_tarifaria_bin,Binning,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+"cat_low__posicion_tarifaria_bin_(0,.25]",posicion_tarifaria_bin,Binning,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__posicion_tarifaria_bin_<=0,posicion_tarifaria_bin,Binning,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__posicion_tarifaria_bin_>1,posicion_tarifaria_bin,Binning,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__posicion_tarifaria_bin_No disponible,posicion_tarifaria_bin,Binning,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__ops_t_bin_Q_1,ops_t_bin,Binning,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__ops_t_bin_Q_2,ops_t_bin,Binning,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__ops_t_bin_Q_3,ops_t_bin,Binning,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__ops_t_bin_Q_4,ops_t_bin,Binning,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__ops_t_bin_Q_5,ops_t_bin,Binning,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__antiguedad_bin_No disponible,antiguedad_bin,Binning,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__antiguedad_bin_Q_1,antiguedad_bin,Binning,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__antiguedad_bin_Q_2,antiguedad_bin,Binning,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__antiguedad_bin_Q_3,antiguedad_bin,Binning,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__antiguedad_bin_Q_4,antiguedad_bin,Binning,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+cat_low__antiguedad_bin_Q_5,antiguedad_bin,Binning,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_ACCESO (LOG ON),subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_ACT CHEQUERAS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_ACTUALIZACION DIFERENCIA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_ADMINISTRACION TDCE,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_AFILIA Y ADMINISTRA TDDE,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_ALTA BENEFICIARIAS PUN ARCH,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_ANUALIDAD,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_AUDITORIA DE ORDENES Y CONSULT,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_BAJA BENEFICIARIAS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_BBVA NET CASH,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_BBVA TRANSFERENCIAS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_BILLETE PROB FALSO DEM,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_C43 HIST MOV AUTOMATA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_C43 HISTORICO MOVIMIENTOS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CAJERO RECEPTOR X MILLAR,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CASH HIST MOV AUTOMATA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CASH HISTORICO MOVIMIENTOS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CECOBAN PAGOS INTERBAN P GPO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CECOBAN PAGOS INTERBAN P GPO.,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CFDI CONSULTAS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CHEQUE ADICIONAL,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CHEQUE EN LINEA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIE BOVEDA EFECTIVO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIE CAJEROS AUTOMATICOS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIE CHQS. BBVA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIE COBRO INMEDIATO SBF,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIE DIARIO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIE EFECTIVO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIE EFECTIVO BBVA NET CASH (PIBE),subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIE EFECTIVO BBVA.MX,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIE EFECTIVO CASH WINDOWS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIE EFECTIVO POR APIS BBVA(APIB),subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIE REFRENCIADO TG ENVIO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIE TDC BBVA.MX,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIE TIB CHQS SBF CORRESPONSALES,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIERRE CONTABLE DEM,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CLIENT TRADE,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COBRANZA EMP ESPECIAL,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CODI PLUS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CODI QR,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COM DIF CTAS PROPIAS NOK,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COM DIF CTAS PROPIAS OK,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COM DIF CTAS TDC % OK,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COM DIF CTAS TDC NOK,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COM DIF INTER NOK,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COM DIF INTER OK,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COM ESTANDAR CTAS INTER,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COM ESTANDAR CTAS PROPIAS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COM PARCIAL CTAS PROPIAS NOK,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COM PARCIAL CTAS PROPIAS OK,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COMISION CIE,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COMISION DEM,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COMISION MENSUAL DOTACIONES,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COMISION P.E.,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COMISION SWIFT MT940,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COMISION SWIFT MT942,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COMPRA VENTA DIVISAS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COMPROBANTES SIT PDF,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CONEXION ONE VIEW,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CONSULTA CHEQUES DEVUELTOS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CONSULTA CIE AUTOMATA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CONSULTA CIE ON LINE,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CONSULTA CMPA VTA DIVISAS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CONSULTA CREDIPROV DOCUMENTOS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CONSULTA CREDIPROV PROVEDOR,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CONSULTA DE COMISIONES,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CONSULTA DE OPERACIONES ENV,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CONSULTA EDO CTA CIE HIST,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CONSULTA FONDOS DE INVERSION,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CONSULTA IMAGENES DIGITALIZADA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CONSULTA PAGARE SDOS MOVS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CREDIPROV DOCTOS ENVIO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CREDIPROV DOCTOS TG ENVIO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CREDIPROV PROVEE ENVIO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CREDIPROV PROVEE TG ENVIO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CREDIPROVEDORES COMPRADOR,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CREDIPROVEEDORES DOCUMENTOS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CREDIPROVEEDORES PROVEEDOR,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CREDITO LIQ FLEX A PLAZOS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CREDITO LIQUIDO ANUAL,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DEM BOVEDA CHQS. BBVA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DEM BOVEDA COBRO INMEDIATO SBF,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DEM BOVEDA EFECTIVO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DEM BOVEDA MANEJO DE EFECTIVO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DEM CHQS. BBVA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DEM COBRO INMEDIATO SALVO BUEN FIN,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DEM EFECTIVO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DEM MANEJO DE EFECTIVO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DEP. CIE TDC VENTANILLA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DEPOSITO DEM,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DEPOSITOS DEM,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DESCARGA EDO CTA GPO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DIFERENCIAS ADMINISTRATIVAS DEM,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DINERO MOVIL MASIVO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DISPERSION A CONVENIOS CIE,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DISPERSION A CUENTAS PROPIAS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DISPERSION CON PAGO EN VENTANILLA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DISPERSION SPEI CUENTAS INTERBANCARIAS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DISPERSION SPID CUENTAS INTERBANCARIAS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DISPONIBLE 4374,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DISPONIBLE 4376,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DISPONIBLE 4378,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DISPONIBLE 4380,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DISPONIBLE 4381,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DOMICILIACION EN LINEA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DOMICILIACIONES,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DOMICILIACIONES TG,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DOTACIONES DEM,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_EDO CTA CIE AUTOMATA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_EDO CTA ELECTRO PDF,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_EDO CTA ELECTRONICO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_EDO CTA SWIFT MSG ACT FORMATO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_ESTADO DE CUENTA MULTICASH,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_ESTADO DE CUENTA MULTICASH PEMEX,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_ESTADO DE CUENTA XML,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_ESTADOS DE CUENTA PDF,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_FACTOR AL MILLAR POR MONTO CENTRALIZADO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_FICHA DE DEPOSITO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_FONDOS DE INVERSION,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_IMPLEMENTACION DEL CANAL,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_IMPORTACION DE LOTES,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_IMPUESTOS ADUANALES,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_IMPUESTOS CDMX,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_IMPUESTOS SUA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_INTERESES OVERNIGHT,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_INV REPORTO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_LIBERACION DEM,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_LIBERACION DIREFENCIAS DEM,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_LICENCIA AUTOMATA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_MANEJO DE EFECTIVO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_MENSAJE SWIFT,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_MENSUALIDAD,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_MENSUALIDAD / ANUALIDAD,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_MODIFICACION BENEFICIARIAS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_MODULO DE ENCRIPCION,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_MOVIMIENTOS DEL DIA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_MOVIMIENTOS DEL DIA C43,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_MOVIMIENTOS HISTORICOS C43,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_MOVIMIENTOS ONE VIEW,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_MOVS DEL DIA AUTOMATA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_MOVS INTERBANCARIOS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_MT 940,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_NOMINA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_NOMINA AFILIACION AUTOSERVICIO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_NOMINA DISPER PROPIA INTERBANC,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_NOMINA EN TIEMPO REAL,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_NOMINA EXPRESS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_NOTIFICACION CODI,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_NUMERO DE BARRIDOS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_NUMERO DE COBERTURAS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_OPERACION T.I.B.,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_OPIS PUNTUAL GPO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_ORDEN DE PAGO INT.,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_ORDEN DE PAGO INTERNACIONAL,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGARE,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO A TERECEROS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO BBVA CIE CODI,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO CIE,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO CIE INTERBANCARIO SPEI,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO CIE INTERBANCARIO TEF,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO CIE PUNT GPO PROG,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO CIE PUNT GPO PROGR,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO CREDIPROVEEDORES PROPIOS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO CREDIPROVEEDORES SPEI,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO DE SERVICIOS EN VENTANILLA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO DE SERVICIOS POR APIS BBVA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO DE SERVICIOS POR BBVA NET CASH,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO DE SERVICIOS POR CAJEROS AUTOMATICO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO DE SERVICIOS POR CASH WINDOWS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO DE SERVICIOS POR INTERNET,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO DE SERVICIOS POR TERMINAL PUNTO VTA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO IMPUESTO SAT,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO INTERBANCARIO CIE CODI,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO INTERBANCARIO MAYOR,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO INTERBANCARIO MENOR,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO MISMO BANCO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO REF INTERBANCARIO SPEI,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO REF INTERBANCARIO TEF,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO REFERENCIADO SAT,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO SERV INTERBANCARIO SPEI,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO SERV VENTANILLA CHQ. BANCOMER,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO SERV VENTANILLA COBRO INM,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO SPEI,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO TDC BANCOMER,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO TDC INTERBANCARIO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO TDC MISMO BANCO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGOS CIE,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGOS INT RECIB CONSUL DEL DIA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGOS INTERNACIONALES (SWIFT),subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGOS MISMO BANCO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGOS MISMO BCO PUNT GPO PROG,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGOS TESOFE,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGOS URGENTES LOTE,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PARAMETROS DEM,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PIVOT NET MENSUALIDAD,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PPALES DEPOSITOS RECIBIDOS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PROTECCION DE CHEQUES,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PROTECCION DE CHEQUES LINEA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_RAFAGA PERSONALIZADA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_REINTENTOS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_RENTA ENLACE,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_RENTA MENSUAL,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_RENTA MENSUAL CUENTAS ASOCIADAS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_RENTA MENSUAL ESTRUCTURA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_RENTA MENSUAL H2H,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_RENTA SWIFT MT940 ENVIADO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_RENTA SWIFT MT940 RECIBIDO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_RENTA SWIFT MT942 ENVIADO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_REP MOV 2 MESES ATRAS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_REP MOV 5 PERIODOS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_REP MOV DEL DIA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_REP MOV MES ACT,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_REP MOV MES ANT,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_REPORTE CIE 7 24,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_REPORTE INTEGRAL DE COBRANZA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_REPORTES SICOCO VARS PER,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SALDOS GRUPOS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SALDOS ONE VIEW P G,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SALDOS PUNTUALES,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SERVICIO INTEGRAL DE TESORERIA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SERVICIO SWIFT,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SIPARE IMSS INFONAVIT,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SIT ALTA SOLIC CONSULTA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SIT DOCUMENTOS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SIT PAGADOR PAGOS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SIT PAGADOR PROVEEDOR,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SIT PROVEEDOR CONSULTA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SIT PROVEEDORES,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SPEI PAGOS INTERB PUNT GPO PRO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SPEI TRANSFERENCIAS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SPID PAGOS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_STREAMING CONSULTAS,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SUSPENSION DE CHEQUES,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TITULAR BENEFICIARIAS A VOL,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TITULAR CUENTAS MISMO BANCO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TPVS CONCILIACION,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TRANSF EN TIEMPO REAL,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TRANSFERENCIA BBVA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TRANSFERENCIA INTERNACIONAL,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TRANSFERENCIA SPEI,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TRANSFERENCIA SPID,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TRANSFERENCIAS BBVA,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TRANSFERENCIAS INTERNACIONALES,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TRANSFERENCIAS MISMO BANCO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TRANSFERENCIAS SPEI,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TRANSFERENCIAS SPID,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TRASP M BANCO AGENCIA P G,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TRASP MISMO BCO PUNT GPO PROGR,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TRASP SPEI INTER PUNT GPO PROG,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TUNEL COBRANZA TPV,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_VOSTRO SPEI BCO EXTRANJERO,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_infrequent_sklearn,subproducto,Codificación,,OHE,codificada,True,False,True,False,Retenida,feature final del pipeline,predictor
+num_pca__pca0,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca1,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca2,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca3,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca4,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca5,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca6,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca7,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca8,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca9,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca10,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca11,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca12,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca13,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca14,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca15,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca16,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca17,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca18,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca19,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca20,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca21,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca22,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca23,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca24,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca25,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca26,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca27,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca28,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca29,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca30,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+num_pca__pca31,bloque_numerico_transformado,PCA,,PCA sobre numéricas transformadas + StandardScaler,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+binary__missing_moneda,missing_moneda,Missing,,pipeline,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+binary__missing_industria,missing_industria,Missing,,pipeline,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+binary__seniority_invalido,seniority_invalido,Antigüedad,,pipeline,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+binary__anaquel_valido,anaquel_valido,Pricing,,pipeline,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+binary__repricing_flag_t,repricing_flag_t,Repricing,,pipeline,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+binary__repricing_ultimo_mes,repricing_ultimo_mes,Repricing,,pipeline,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+binary__peer_calificado_t,peer_calificado_t,Peers,,pipeline,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+binary__ops_lag_1_disponible,ops_lag_1_disponible,Historia transaccional,,pipeline,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+binary__ops_lag_2_disponible,ops_lag_2_disponible,Historia transaccional,,pipeline,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+binary__ops_lag_3_disponible,ops_lag_3_disponible,Historia transaccional,,pipeline,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+binary__ops_lag_6_disponible,ops_lag_6_disponible,Historia transaccional,,pipeline,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cyclic__mes_sin,mes_sin,Temporal,,pipeline,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cyclic__mes_cos,mes_cos,Temporal,,pipeline,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__producto_APIS EMPRESARIALES,producto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__producto_BBVA NET CASH,producto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__producto_CENTRALIZACION DE CUENTAS,producto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__producto_CONCENTRACION INMEDIATA EMPRESARIAL CIE,producto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__producto_CREDIPROVEEDORES,producto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__producto_DEPOSITO EMPRESARIAL,producto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__producto_DEPOSITO EMPRESARIAL DOLARES,producto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__producto_DOMICILIACION,producto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__producto_HOST TO HOST SERVICIOS,producto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__producto_OPERACION T.I.B.,producto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__producto_PAGOS ELECTRONICOS PAGEL,producto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__producto_SERVICIO INTEGRAL DE TESORERIA (SIT),producto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__producto_SERVICIOS BBVA NET CASH,producto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__producto_SERVICIOS T.I.B.,producto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__producto_SWIFT,producto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+"cat_low__industria_AUTOS, COMPONENTS & DURABLE GOODS",industria,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__industria_BASIC MATERIALS,industria,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__industria_BASIC MATERIALS II,industria,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__industria_CAPITAL GOODS & INDUSTRIAL SERVICES,industria,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__industria_CONSTRUCTION & CONSTRUCTION MATERIALS,industria,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__industria_CONSUMER,industria,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__industria_Desconocido,industria,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__industria_ENERGY (OIL & GAS),industria,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__industria_FINANCIAL INSTITUTIONS,industria,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__industria_FINANCIAL SERVICES,industria,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__industria_HEALTHCARE,industria,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__industria_INSTITUTIONS,industria,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__industria_LEISURE & CONSUMER SERVICES,industria,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__industria_REAL ESTATE,industria,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__industria_RETAIL,industria,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+"cat_low__industria_TELECOMS, TECHNOLOGY & MEDIA",industria,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__industria_TRANSPORTATION,industria,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__industria_UTILITIES,industria,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__moneda_Desconocido,moneda,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__moneda_EUR,moneda,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__moneda_MXP,moneda,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__moneda_USD,moneda,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__direccion_ultimo_repricing_bajada,direccion_ultimo_repricing,Repricing,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__direccion_ultimo_repricing_sin_historial,direccion_ultimo_repricing,Repricing,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__direccion_ultimo_repricing_subida,direccion_ultimo_repricing,Repricing,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__peer_nivel_industria_producto,peer_nivel,Peers,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__peer_nivel_no_disponible,peer_nivel,Peers,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__peer_nivel_producto,peer_nivel,Peers,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__trimestre_T1,trimestre,Temporal,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__trimestre_T2,trimestre,Temporal,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__trimestre_T3,trimestre,Temporal,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__trimestre_T4,trimestre,Temporal,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+"cat_low__posicion_tarifaria_bin_(.25,.50]",posicion_tarifaria_bin,Binning,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+"cat_low__posicion_tarifaria_bin_(.50,.75]",posicion_tarifaria_bin,Binning,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+"cat_low__posicion_tarifaria_bin_(.75,1]",posicion_tarifaria_bin,Binning,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+"cat_low__posicion_tarifaria_bin_(0,.25]",posicion_tarifaria_bin,Binning,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__posicion_tarifaria_bin_<=0,posicion_tarifaria_bin,Binning,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__posicion_tarifaria_bin_>1,posicion_tarifaria_bin,Binning,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__posicion_tarifaria_bin_No disponible,posicion_tarifaria_bin,Binning,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__ops_t_bin_Q_1,ops_t_bin,Binning,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__ops_t_bin_Q_2,ops_t_bin,Binning,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__ops_t_bin_Q_3,ops_t_bin,Binning,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__ops_t_bin_Q_4,ops_t_bin,Binning,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__ops_t_bin_Q_5,ops_t_bin,Binning,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__antiguedad_bin_No disponible,antiguedad_bin,Binning,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__antiguedad_bin_Q_1,antiguedad_bin,Binning,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__antiguedad_bin_Q_2,antiguedad_bin,Binning,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__antiguedad_bin_Q_3,antiguedad_bin,Binning,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__antiguedad_bin_Q_4,antiguedad_bin,Binning,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+cat_low__antiguedad_bin_Q_5,antiguedad_bin,Binning,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_ACCESO (LOG ON),subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_ACT CHEQUERAS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_ACTUALIZACION DIFERENCIA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_ADMINISTRACION TDCE,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_AFILIA Y ADMINISTRA TDDE,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_ALTA BENEFICIARIAS PUN ARCH,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_ANUALIDAD,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_AUDITORIA DE ORDENES Y CONSULT,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_BAJA BENEFICIARIAS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_BBVA NET CASH,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_BBVA TRANSFERENCIAS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_BILLETE PROB FALSO DEM,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_C43 HIST MOV AUTOMATA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_C43 HISTORICO MOVIMIENTOS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CAJERO RECEPTOR X MILLAR,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CASH HIST MOV AUTOMATA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CASH HISTORICO MOVIMIENTOS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CECOBAN PAGOS INTERBAN P GPO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CECOBAN PAGOS INTERBAN P GPO.,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CFDI CONSULTAS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CHEQUE ADICIONAL,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CHEQUE EN LINEA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIE BOVEDA EFECTIVO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIE CAJEROS AUTOMATICOS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIE CHQS. BBVA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIE COBRO INMEDIATO SBF,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIE DIARIO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIE EFECTIVO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIE EFECTIVO BBVA NET CASH (PIBE),subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIE EFECTIVO BBVA.MX,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIE EFECTIVO CASH WINDOWS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIE EFECTIVO POR APIS BBVA(APIB),subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIE REFRENCIADO TG ENVIO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIE TDC BBVA.MX,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIE TIB CHQS SBF CORRESPONSALES,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CIERRE CONTABLE DEM,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CLIENT TRADE,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COBRANZA EMP ESPECIAL,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CODI PLUS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CODI QR,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COM DIF CTAS PROPIAS NOK,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COM DIF CTAS PROPIAS OK,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COM DIF CTAS TDC % OK,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COM DIF CTAS TDC NOK,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COM DIF INTER NOK,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COM DIF INTER OK,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COM ESTANDAR CTAS INTER,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COM ESTANDAR CTAS PROPIAS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COM PARCIAL CTAS PROPIAS NOK,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COM PARCIAL CTAS PROPIAS OK,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COMISION CIE,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COMISION DEM,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COMISION MENSUAL DOTACIONES,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COMISION P.E.,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COMISION SWIFT MT940,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COMISION SWIFT MT942,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COMPRA VENTA DIVISAS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_COMPROBANTES SIT PDF,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CONEXION ONE VIEW,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CONSULTA CHEQUES DEVUELTOS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CONSULTA CIE AUTOMATA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CONSULTA CIE ON LINE,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CONSULTA CMPA VTA DIVISAS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CONSULTA CREDIPROV DOCUMENTOS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CONSULTA CREDIPROV PROVEDOR,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CONSULTA DE COMISIONES,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CONSULTA DE OPERACIONES ENV,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CONSULTA EDO CTA CIE HIST,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CONSULTA FONDOS DE INVERSION,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CONSULTA IMAGENES DIGITALIZADA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CONSULTA PAGARE SDOS MOVS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CREDIPROV DOCTOS ENVIO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CREDIPROV DOCTOS TG ENVIO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CREDIPROV PROVEE ENVIO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CREDIPROV PROVEE TG ENVIO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CREDIPROVEDORES COMPRADOR,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CREDIPROVEEDORES DOCUMENTOS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CREDIPROVEEDORES PROVEEDOR,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CREDITO LIQ FLEX A PLAZOS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_CREDITO LIQUIDO ANUAL,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DEM BOVEDA CHQS. BBVA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DEM BOVEDA COBRO INMEDIATO SBF,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DEM BOVEDA EFECTIVO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DEM BOVEDA MANEJO DE EFECTIVO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DEM CHQS. BBVA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DEM COBRO INMEDIATO SALVO BUEN FIN,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DEM EFECTIVO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DEM MANEJO DE EFECTIVO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DEP. CIE TDC VENTANILLA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DEPOSITO DEM,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DEPOSITOS DEM,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DESCARGA EDO CTA GPO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DIFERENCIAS ADMINISTRATIVAS DEM,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DINERO MOVIL MASIVO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DISPERSION A CONVENIOS CIE,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DISPERSION A CUENTAS PROPIAS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DISPERSION CON PAGO EN VENTANILLA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DISPERSION SPEI CUENTAS INTERBANCARIAS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DISPERSION SPID CUENTAS INTERBANCARIAS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DISPONIBLE 4374,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DISPONIBLE 4376,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DISPONIBLE 4378,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DISPONIBLE 4380,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DISPONIBLE 4381,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DOMICILIACION EN LINEA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DOMICILIACIONES,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DOMICILIACIONES TG,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_DOTACIONES DEM,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_EDO CTA CIE AUTOMATA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_EDO CTA ELECTRO PDF,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_EDO CTA ELECTRONICO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_EDO CTA SWIFT MSG ACT FORMATO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_ESTADO DE CUENTA MULTICASH,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_ESTADO DE CUENTA MULTICASH PEMEX,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_ESTADO DE CUENTA XML,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_ESTADOS DE CUENTA PDF,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_FACTOR AL MILLAR POR MONTO CENTRALIZADO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_FICHA DE DEPOSITO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_FONDOS DE INVERSION,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_IMPLEMENTACION DEL CANAL,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_IMPORTACION DE LOTES,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_IMPUESTOS ADUANALES,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_IMPUESTOS CDMX,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_IMPUESTOS SUA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_INTERESES OVERNIGHT,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_INV REPORTO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_LIBERACION DEM,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_LIBERACION DIREFENCIAS DEM,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_LICENCIA AUTOMATA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_MANEJO DE EFECTIVO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_MENSAJE SWIFT,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_MENSUALIDAD,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_MENSUALIDAD / ANUALIDAD,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_MODIFICACION BENEFICIARIAS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_MODULO DE ENCRIPCION,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_MOVIMIENTOS DEL DIA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_MOVIMIENTOS DEL DIA C43,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_MOVIMIENTOS HISTORICOS C43,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_MOVIMIENTOS ONE VIEW,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_MOVS DEL DIA AUTOMATA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_MOVS INTERBANCARIOS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_MT 940,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_NOMINA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_NOMINA AFILIACION AUTOSERVICIO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_NOMINA DISPER PROPIA INTERBANC,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_NOMINA EN TIEMPO REAL,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_NOMINA EXPRESS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_NOTIFICACION CODI,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_NUMERO DE BARRIDOS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_NUMERO DE COBERTURAS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_OPERACION T.I.B.,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_OPIS PUNTUAL GPO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_ORDEN DE PAGO INT.,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_ORDEN DE PAGO INTERNACIONAL,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGARE,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO A TERECEROS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO BBVA CIE CODI,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO CIE,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO CIE INTERBANCARIO SPEI,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO CIE INTERBANCARIO TEF,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO CIE PUNT GPO PROG,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO CIE PUNT GPO PROGR,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO CREDIPROVEEDORES PROPIOS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO CREDIPROVEEDORES SPEI,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO DE SERVICIOS EN VENTANILLA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO DE SERVICIOS POR APIS BBVA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO DE SERVICIOS POR BBVA NET CASH,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO DE SERVICIOS POR CAJEROS AUTOMATICO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO DE SERVICIOS POR CASH WINDOWS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO DE SERVICIOS POR INTERNET,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO DE SERVICIOS POR TERMINAL PUNTO VTA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO IMPUESTO SAT,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO INTERBANCARIO CIE CODI,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO INTERBANCARIO MAYOR,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO INTERBANCARIO MENOR,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO MISMO BANCO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO REF INTERBANCARIO SPEI,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO REF INTERBANCARIO TEF,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO REFERENCIADO SAT,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO SERV INTERBANCARIO SPEI,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO SERV VENTANILLA CHQ. BANCOMER,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO SERV VENTANILLA COBRO INM,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO SPEI,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO TDC BANCOMER,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO TDC INTERBANCARIO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGO TDC MISMO BANCO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGOS CIE,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGOS INT RECIB CONSUL DEL DIA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGOS INTERNACIONALES (SWIFT),subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGOS MISMO BANCO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGOS MISMO BCO PUNT GPO PROG,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGOS TESOFE,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PAGOS URGENTES LOTE,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PARAMETROS DEM,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PIVOT NET MENSUALIDAD,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PPALES DEPOSITOS RECIBIDOS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PROTECCION DE CHEQUES,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_PROTECCION DE CHEQUES LINEA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_RAFAGA PERSONALIZADA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_REINTENTOS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_RENTA ENLACE,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_RENTA MENSUAL,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_RENTA MENSUAL CUENTAS ASOCIADAS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_RENTA MENSUAL ESTRUCTURA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_RENTA MENSUAL H2H,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_RENTA SWIFT MT940 ENVIADO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_RENTA SWIFT MT940 RECIBIDO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_RENTA SWIFT MT942 ENVIADO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_REP MOV 2 MESES ATRAS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_REP MOV 5 PERIODOS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_REP MOV DEL DIA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_REP MOV MES ACT,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_REP MOV MES ANT,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_REPORTE CIE 7 24,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_REPORTE INTEGRAL DE COBRANZA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_REPORTES SICOCO VARS PER,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SALDOS GRUPOS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SALDOS ONE VIEW P G,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SALDOS PUNTUALES,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SERVICIO INTEGRAL DE TESORERIA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SERVICIO SWIFT,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SIPARE IMSS INFONAVIT,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SIT ALTA SOLIC CONSULTA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SIT DOCUMENTOS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SIT PAGADOR PAGOS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SIT PAGADOR PROVEEDOR,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SIT PROVEEDOR CONSULTA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SIT PROVEEDORES,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SPEI PAGOS INTERB PUNT GPO PRO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SPEI TRANSFERENCIAS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SPID PAGOS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_STREAMING CONSULTAS,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_SUSPENSION DE CHEQUES,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TITULAR BENEFICIARIAS A VOL,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TITULAR CUENTAS MISMO BANCO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TPVS CONCILIACION,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TRANSF EN TIEMPO REAL,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TRANSFERENCIA BBVA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TRANSFERENCIA INTERNACIONAL,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TRANSFERENCIA SPEI,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TRANSFERENCIA SPID,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TRANSFERENCIAS BBVA,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TRANSFERENCIAS INTERNACIONALES,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TRANSFERENCIAS MISMO BANCO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TRANSFERENCIAS SPEI,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TRANSFERENCIAS SPID,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TRASP M BANCO AGENCIA P G,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TRASP MISMO BCO PUNT GPO PROGR,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TRASP SPEI INTER PUNT GPO PROG,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_TUNEL COBRANZA TPV,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_VOSTRO SPEI BCO EXTRANJERO,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+subproducto__subproducto_infrequent_sklearn,subproducto,Codificación,,OHE,codificada,True,False,False,True,Retenida,feature final del pipeline,predictor
+ratio_retencion_ops,ratio_retencion_ops,Diagnóstico Vinculación,diagnóstico,ninguna,float,False,True,False,False,Solo diagnóstico,utiliza t+1,diagnóstico
+caida_ops_50pct,caida_ops_50pct,Diagnóstico Vinculación,diagnóstico,ninguna,int,False,True,False,False,Solo diagnóstico,utiliza t+1,diagnóstico

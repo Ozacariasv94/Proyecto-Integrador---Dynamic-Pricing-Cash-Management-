@@ -1,0 +1,165 @@
+feature,estado,motivo
+operaciones_t1,Excluida,target
+fecha_target,Excluida,información futura / referencia del target
+fecha_siguiente_observada,Excluida,información futura
+operaciones_siguiente_observadas,Excluida,información futura
+gap_hacia_siguiente,Excluida,construcción del target
+negocio,Excluida,varianza nula observada en E1
+numero_operaciones,Excluida,duplicada por ops_t
+tarifa_vigente,Excluida,duplicada por tarifa_vigente_t
+tarifa_anaquel,Excluida,duplicada por tarifa_anaquel_t
+ingreso_bruto,Excluida,duplicada por ingreso_bruto_t
+seniority,Excluida,reemplazada por antiguedad_meses y seniority_invalido
+mes_idx,Excluida,auxiliar temporal
+mes_idx_siguiente,Excluida,auxiliar del target
+_ultimo_repricing_mes_idx,Excluida,auxiliar de ingeniería
+cambio_tarifa_pct,Excluida,auxiliar para construir repricing
+industria_peer,Excluida,auxiliar de definición peer
+split,Excluida,"control de partición, no predictor"
+fecha_corte,Excluida,"key temporal para split, no predictor directo"
+id_grupo,Excluida,identificador de trazabilidad; no predictor directo
+id_cliente,Excluida,identificador de trazabilidad; no predictor directo
+línea_contrato,Excluida,identificador de trazabilidad; no predictor directo
+convenio,Excluida,identificador de trazabilidad; no predictor directo
+_ops_lag_1,Excluida,auxiliar de construcción de features
+_ops_lag_2,Excluida,auxiliar de construcción de features
+_ops_lag_3,Excluida,auxiliar de construcción de features
+_ops_lag_4,Excluida,auxiliar de construcción de features
+_ops_lag_5,Excluida,auxiliar de construcción de features
+_ops_lag_6,Excluida,auxiliar de construcción de features
+_nuevo_bloque_continuidad,Excluida,auxiliar de construcción de features
+_bloque_continuidad,Excluida,auxiliar de construcción de features
+_repricing_lag_1,Excluida,auxiliar de construcción de features
+_repricing_lag_2,Excluida,auxiliar de construcción de features
+_evento_repricing_mes,Excluida,auxiliar de construcción de features
+_evento_repricing_mag,Excluida,auxiliar de construcción de features
+_evento_repricing_dir,Excluida,auxiliar de construcción de features
+_peer_simple_n,Excluida,auxiliar de construcción de features
+_peer_simple_grupos,Excluida,auxiliar de construcción de features
+_peer_simple_calificado,Excluida,auxiliar de construcción de features
+_peer_simple_ops_media_loo,Excluida,auxiliar de construcción de features
+_peer_simple_ops_mediana,Excluida,auxiliar de construcción de features
+_peer_simple_tarifa_mediana,Excluida,auxiliar de construcción de features
+_peer_simple_posicion_mediana,Excluida,auxiliar de construcción de features
+_peer_producto_n,Excluida,auxiliar de construcción de features
+_peer_producto_grupos,Excluida,auxiliar de construcción de features
+_peer_producto_calificado,Excluida,auxiliar de construcción de features
+_peer_producto_ops_media_loo,Excluida,auxiliar de construcción de features
+_peer_producto_ops_mediana,Excluida,auxiliar de construcción de features
+_peer_producto_tarifa_mediana,Excluida,auxiliar de construcción de features
+_peer_producto_posicion_mediana,Excluida,auxiliar de construcción de features
+_peer_especifico_n,Excluida,auxiliar de construcción de features
+_peer_especifico_grupos,Excluida,auxiliar de construcción de features
+_peer_especifico_calificado,Excluida,auxiliar de construcción de features
+_peer_especifico_ops_media_loo,Excluida,auxiliar de construcción de features
+_peer_especifico_ops_mediana,Excluida,auxiliar de construcción de features
+_peer_especifico_tarifa_mediana,Excluida,auxiliar de construcción de features
+_peer_especifico_posicion_mediana,Excluida,auxiliar de construcción de features
+grupo_antiguedad_observada_meses,Excluida por redundancia,redundante con grupo_meses_observado (Spearman Train=0.9998)
+grupo_hist_n_3,Excluida por redundancia,sin señal univariada en Train (|Spearman|=0.0020; MI=0.0000)
+grupo_hist_n_6,Excluida por redundancia,sin señal univariada en Train (|Spearman|=0.0079; MI=0.0066)
+grupo_meses_observado,Excluida por redundancia,señal y cobertura Train equivalentes; se prioriza menor asimetría en Train
+grupo_n_productos,Excluida por redundancia,señal y cobertura Train equivalentes; se prioriza menor asimetría en Train
+grupo_n_subproductos,Excluida por redundancia,señal y cobertura Train equivalentes; se prioriza menor asimetría en Train
+grupo_ops_lag_1,Excluida por redundancia,señal y cobertura Train equivalentes; se prioriza menor asimetría en Train
+grupo_ops_media_3m,Excluida por redundancia,señal y cobertura Train equivalentes; se prioriza menor asimetría en Train
+grupo_ops_media_6m,Excluida por redundancia,mayor cobertura P10 mensual dentro de Train
+grupo_ops_std_6m,Excluida por redundancia,mayor cobertura P10 mensual dentro de Train
+grupo_ops_total_t,Excluida por redundancia,señal y cobertura Train equivalentes; se prioriza menor asimetría en Train
+grupo_pct_meses_activo,Excluida por redundancia,baja variabilidad en Train (IQR=0.0000) y MI=0.0009
+grupo_ratio_diversificacion,Excluida por redundancia,redundante con grupo_subproductos_por_producto; ambas son transformaciones recíprocas
+log_grupo_ops_media_6m,Excluida por redundancia,mayor cobertura P10 mensual dentro de Train
+log_grupo_ops_total_t,Excluida por redundancia,señal y cobertura Train equivalentes; se prioriza menor asimetría en Train
+log_ops_media_3m,Excluida por redundancia,mayor cobertura P10 mensual dentro de Train
+log_ops_media_6m,Excluida por redundancia,mayor cobertura P10 mensual dentro de Train
+ops_lag_1,Excluida por redundancia,asociación con target materialmente mayor en Train
+ops_lag_2,Excluida por redundancia,señal y cobertura Train equivalentes; se prioriza menor asimetría en Train
+ops_lag_3,Excluida por redundancia,mayor cobertura P10 mensual dentro de Train
+ops_lag_6,Excluida por redundancia,mayor cobertura P10 mensual dentro de Train
+ops_media_3m,Excluida por redundancia,mayor cobertura P10 mensual dentro de Train
+ops_media_6m,Excluida por redundancia,mayor cobertura P10 mensual dentro de Train
+ops_mediana_3m,Excluida por redundancia,señal y cobertura Train equivalentes; se prioriza menor asimetría en Train
+ops_std_6m,Excluida por redundancia,mayor cobertura P10 mensual dentro de Train
+pct_delta_tarifa_1m,Excluida por redundancia,mayor cobertura P10 mensual dentro de Train
+pct_delta_tarifa_1m_yj,Excluida por redundancia,mayor cobertura P10 mensual dentro de Train
+tarifa_lag_1,Excluida por redundancia,señal y cobertura Train equivalentes; se prioriza menor asimetría en Train
+ops_t,Protegida,numérica disponible para Dataset A
+ops_std_3m,Retenida,numérica disponible para Dataset A
+ops_delta_1m,Retenida,numérica disponible para Dataset A
+ops_pct_change_1m,Retenida,numérica disponible para Dataset A
+ops_hist_n_3,Retenida,numérica disponible para Dataset A
+ops_hist_n_6,Retenida,numérica disponible para Dataset A
+tarifa_vigente_t,Protegida,numérica disponible para Dataset A
+tarifa_anaquel_t,Protegida,numérica disponible para Dataset A
+posicion_tarifaria,Protegida,numérica disponible para Dataset A
+descuento_rel_anaquel,Retenida,numérica disponible para Dataset A
+gap_anaquel,Retenida,numérica disponible para Dataset A
+delta_tarifa_1m,Retenida,numérica disponible para Dataset A
+ingreso_bruto_t,Retenida,numérica disponible para Dataset A
+repricing_ultimos_3m,Retenida,numérica disponible para Dataset A
+meses_desde_repricing,Retenida,numérica disponible para Dataset A
+magnitud_ultimo_repricing,Retenida,numérica disponible para Dataset A
+mes,Retenida,numérica disponible para Dataset A
+meses_desde_inicio,Retenida,numérica disponible para Dataset A
+antiguedad_meses,Retenida,numérica disponible para Dataset A
+grupo_n_tarifas,Retenida,numérica disponible para Dataset A
+grupo_tarifa_media,Retenida,numérica disponible para Dataset A
+grupo_tarifa_std,Retenida,numérica disponible para Dataset A
+grupo_antiguedad_max_meses,Conservar,numérica disponible para Dataset A
+grupo_antiguedad_mediana_meses,Conservar,numérica disponible para Dataset A
+grupo_n_clientes,Conservar,numérica disponible para Dataset A
+grupo_n_lineas,Conservar,numérica disponible para Dataset A
+grupo_n_convenios,Conservar,numérica disponible para Dataset A
+grupo_n_unidades,Conservar,numérica disponible para Dataset A
+grupo_n_productos_hist,Baja prioridad,numérica disponible para Dataset A
+grupo_n_subproductos_hist,Conservar,numérica disponible para Dataset A
+grupo_subproductos_por_producto,Conservar,numérica disponible para Dataset A
+grupo_ops_std_3m,Conservar,numérica disponible para Dataset A
+grupo_ops_cv_6m,Conservar,numérica disponible para Dataset A
+share_ops_grupo,Conservar,numérica disponible para Dataset A
+share_producto_ops_grupo,Conservar,numérica disponible para Dataset A
+share_subproducto_ops_grupo,Conservar,numérica disponible para Dataset A
+peer_ops_mediana_t,Retenida,numérica disponible para Dataset A
+peer_ops_media_t,Retenida,numérica disponible para Dataset A
+peer_tarifa_mediana_t,Retenida,numérica disponible para Dataset A
+peer_posicion_tarifaria_mediana_t,Retenida,numérica disponible para Dataset A
+peer_n_t,Retenida,numérica disponible para Dataset A
+peer_grupos_n_t,Retenida,numérica disponible para Dataset A
+ops_vs_peer,Retenida,numérica disponible para Dataset A
+tarifa_vs_peer,Retenida,numérica disponible para Dataset A
+log_ops_t,Retenida,numérica disponible para Dataset A
+log_tarifa_vigente_t,Retenida,numérica disponible para Dataset A
+log_tarifa_anaquel_t,Retenida,numérica disponible para Dataset A
+log_ingreso_bruto_t,Retenida,numérica disponible para Dataset A
+log_grupo_n_convenios,Retenida,numérica disponible para Dataset A
+log_grupo_ops_media_3m,Retenida,numérica disponible para Dataset A
+log_peer_ops_mediana_t,Retenida,numérica disponible para Dataset A
+log_peer_ops_media_t,Retenida,numérica disponible para Dataset A
+log_peer_tarifa_mediana_t,Retenida,numérica disponible para Dataset A
+ops_delta_1m_yj,Retenida,numérica disponible para Dataset A
+delta_tarifa_1m_yj,Retenida,numérica disponible para Dataset A
+gap_anaquel_yj,Retenida,numérica disponible para Dataset A
+descuento_rel_anaquel_yj,Retenida,numérica disponible para Dataset A
+missing_moneda,Retenida,entrada no numérica/categórica del pipeline
+missing_industria,Retenida,entrada no numérica/categórica del pipeline
+seniority_invalido,Retenida,entrada no numérica/categórica del pipeline
+anaquel_valido,Retenida,entrada no numérica/categórica del pipeline
+repricing_flag_t,Retenida,entrada no numérica/categórica del pipeline
+repricing_ultimo_mes,Retenida,entrada no numérica/categórica del pipeline
+peer_calificado_t,Retenida,entrada no numérica/categórica del pipeline
+ops_lag_1_disponible,Retenida,entrada no numérica/categórica del pipeline
+ops_lag_2_disponible,Retenida,entrada no numérica/categórica del pipeline
+ops_lag_3_disponible,Retenida,entrada no numérica/categórica del pipeline
+ops_lag_6_disponible,Retenida,entrada no numérica/categórica del pipeline
+mes_sin,Retenida,entrada no numérica/categórica del pipeline
+mes_cos,Retenida,entrada no numérica/categórica del pipeline
+producto,Retenida,entrada no numérica/categórica del pipeline
+industria,Retenida,entrada no numérica/categórica del pipeline
+moneda,Retenida,entrada no numérica/categórica del pipeline
+direccion_ultimo_repricing,Retenida,entrada no numérica/categórica del pipeline
+peer_nivel,Retenida,entrada no numérica/categórica del pipeline
+trimestre,Retenida,entrada no numérica/categórica del pipeline
+posicion_tarifaria_bin,Retenida,entrada no numérica/categórica del pipeline
+ops_t_bin,Retenida,entrada no numérica/categórica del pipeline
+antiguedad_bin,Retenida,entrada no numérica/categórica del pipeline
+subproducto,Retenida,entrada no numérica/categórica del pipeline

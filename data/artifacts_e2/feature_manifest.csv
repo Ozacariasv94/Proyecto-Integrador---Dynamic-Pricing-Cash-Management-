@@ -1,0 +1,105 @@
+feature,familia,tipo,fuente,informacion_maxima,disponible_en_t,usa_target,uso,incluir_X,riesgo_leakage,pct_cobertura_train,pct_cobertura_validation,pct_cobertura_test
+ops_t,Historia transaccional,int64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+ops_lag_1,Historia transaccional,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,91.64372918310436,84.45339958792873,94.34821492819621
+ops_lag_2,Historia transaccional,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,84.85162409429564,70.64295236940977,89.82308617481677
+ops_lag_3,Historia transaccional,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,78.86960868753425,57.76471538803377,86.23752300085322
+ops_lag_6,Historia transaccional,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,63.12957620364068,41.49800024239486,59.20805106960392
+ops_media_3m,Historia transaccional,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,84.85162409429564,70.64295236940977,89.82308617481677
+ops_mediana_3m,Historia transaccional,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,84.85162409429564,70.64295236940977,89.82308617481677
+ops_std_3m,Historia transaccional,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,84.85162409429564,70.64295236940977,89.82308617481677
+ops_media_6m,Historia transaccional,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,68.09069792187404,43.67753403627843,70.20117394298873
+ops_std_6m,Historia transaccional,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,68.09069792187404,43.67753403627843,70.20117394298873
+ops_delta_1m,Historia transaccional,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,91.64372918310436,84.45339958792873,94.34821492819621
+ops_pct_change_1m,Historia transaccional,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,86.5870429819331,79.42976608895891,89.01612886645628
+ops_hist_n_3,Historia transaccional,int8,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+ops_hist_n_6,Historia transaccional,int8,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+ops_lag_1_disponible,Historia transaccional,int8,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+ops_lag_2_disponible,Historia transaccional,int8,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+ops_lag_3_disponible,Historia transaccional,int8,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+ops_lag_6_disponible,Historia transaccional,int8,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+tarifa_vigente_t,Pricing,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+tarifa_anaquel_t,Pricing,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+anaquel_valido,Pricing,int8,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+posicion_tarifaria,Pricing,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,61.63387158622988,63.031753726820995,61.7419998149652
+descuento_rel_anaquel,Pricing,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,61.63387158622988,63.031753726820995,61.7419998149652
+gap_anaquel,Pricing,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+tarifa_lag_1,Pricing,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,91.64372918310436,84.45339958792873,94.34821492819621
+delta_tarifa_1m,Pricing,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,91.64372918310436,84.45339958792873,94.34821492819621
+pct_delta_tarifa_1m,Pricing,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,45.820358848648745,33.679755989173024,39.19962170663761
+ingreso_bruto_t,Económica / Comisiones,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+repricing_flag_t,Repricing,int8,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+repricing_ultimo_mes,Repricing,int8,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+repricing_ultimos_3m,Repricing,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,84.85162409429564,70.64295236940977,89.82308617481677
+meses_desde_repricing,Repricing,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,9.03405588916126,4.108592897830566,2.5812354156601116
+magnitud_ultimo_repricing,Repricing,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,9.03405588916126,4.108592897830566,2.5812354156601116
+direccion_ultimo_repricing,Repricing,object,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+mes,Temporal,int8,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+trimestre,Temporal,object,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+mes_sin,Temporal,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+mes_cos,Temporal,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+meses_desde_inicio,Temporal,int32,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+antiguedad_meses,Antigüedad,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,98.18568018422262,97.7093685613865,97.75388316080551
+seniority_invalido,Antigüedad,int8,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+grupo_n_tarifas,Contexto grupo,int64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+grupo_tarifa_media,Contexto grupo,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+grupo_tarifa_std,Contexto grupo,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,99.81650013150156,99.76366501030178,99.82421694301956
+grupo_antiguedad_max_meses,Vinculación,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,98.27562322698773,97.73360804750939,97.75593910299243
+grupo_antiguedad_mediana_meses,Vinculación,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,98.27562322698773,97.73360804750939,97.75593910299243
+grupo_antiguedad_observada_meses,Vinculación,int32,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+grupo_meses_observado,Vinculación,int64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+grupo_pct_meses_activo,Vinculación,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+grupo_n_clientes,Vinculación,int64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+grupo_n_lineas,Vinculación,int64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+grupo_n_convenios,Vinculación,int64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+grupo_n_productos,Vinculación,int64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+grupo_n_subproductos,Vinculación,int64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+grupo_n_unidades,Vinculación,int64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+grupo_n_productos_hist,Vinculación,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+grupo_n_subproductos_hist,Vinculación,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+grupo_ratio_diversificacion,Vinculación,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+grupo_subproductos_por_producto,Vinculación,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+grupo_ops_total_t,Vinculación,int64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+grupo_ops_lag_1,Vinculación,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,95.69237070185687,99.45158162646952,99.98972028906547
+grupo_ops_media_3m,Vinculación,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,91.38132838646598,98.77186603644003,99.97635666485058
+grupo_ops_media_6m,Vinculación,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,78.33376497963232,97.4134448349695,99.25060907287288
+grupo_ops_std_3m,Vinculación,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,91.38132838646598,98.77186603644003,99.97635666485058
+grupo_ops_std_6m,Vinculación,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,78.33376497963232,97.4134448349695,99.25060907287288
+grupo_ops_cv_6m,Vinculación,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,78.28778962964748,97.41243485638105,99.1909867494526
+grupo_hist_n_3,Vinculación,int8,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+grupo_hist_n_6,Vinculación,int8,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+share_ops_grupo,Vinculación,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,99.90303015701886,99.87981254797398,99.89000709300055
+share_producto_ops_grupo,Vinculación,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,99.90303015701886,99.87981254797398,99.89000709300055
+share_subproducto_ops_grupo,Vinculación,float64,información disponible hasta t,t,True,False,predictor candidato,True,bajo,99.90303015701886,99.87981254797398,99.89000709300055
+peer_ops_mediana_t,Peers,float64,información disponible hasta t,t,True,False,predictor candidato,True,controlado: agregado contemporáneo t,99.99297319978398,99.99899002141154,100.0
+peer_ops_media_t,Peers,float64,información disponible hasta t,t,True,False,predictor candidato,True,controlado: agregado contemporáneo t,99.99297319978398,99.99899002141154,100.0
+peer_tarifa_mediana_t,Peers,float64,información disponible hasta t,t,True,False,predictor candidato,True,controlado: agregado contemporáneo t,99.99297319978398,99.99899002141154,100.0
+peer_posicion_tarifaria_mediana_t,Peers,float64,información disponible hasta t,t,True,False,predictor candidato,True,controlado: agregado contemporáneo t,99.99297319978398,98.26687674221306,100.0
+peer_n_t,Peers,float64,información disponible hasta t,t,True,False,predictor candidato,True,controlado: agregado contemporáneo t,99.99297319978398,99.99899002141154,100.0
+peer_grupos_n_t,Peers,float64,información disponible hasta t,t,True,False,predictor candidato,True,controlado: agregado contemporáneo t,99.99297319978398,99.99899002141154,100.0
+peer_calificado_t,Peers,int8,información disponible hasta t,t,True,False,predictor candidato,True,controlado: agregado contemporáneo t,100.0,100.0,100.0
+peer_nivel,Peers,object,información disponible hasta t,t,True,False,predictor candidato,True,controlado: agregado contemporáneo t,100.0,100.0,100.0
+ops_vs_peer,Peers,float64,información disponible hasta t,t,True,False,predictor candidato,True,controlado: agregado contemporáneo t,99.46817160650721,98.80216539409365,99.6381541751046
+tarifa_vs_peer,Peers,float64,información disponible hasta t,t,True,False,predictor candidato,True,controlado: agregado contemporáneo t,32.45418024344851,22.456873914273018,23.279433382333288
+missing_moneda,Missing,int8,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+missing_industria,Missing,int8,información disponible hasta t,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+posicion_tarifaria_bin,Binning,object,regla de negocio,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+ops_t_bin,Binning,object,derivada con parámetros Train,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+antiguedad_bin,Binning,object,derivada con parámetros Train,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+log_ops_t,Historia transaccional,float64,transformación de ops_t ajustada/definida con Train,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+log_tarifa_vigente_t,Pricing,float64,transformación de tarifa_vigente_t ajustada/definida con Train,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+log_tarifa_anaquel_t,Pricing,float64,transformación de tarifa_anaquel_t ajustada/definida con Train,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+log_ingreso_bruto_t,Económica / Comisiones,float64,transformación de ingreso_bruto_t ajustada/definida con Train,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+log_ops_media_3m,Historia transaccional,float64,transformación de ops_media_3m ajustada/definida con Train,t,True,False,predictor candidato,True,bajo,84.85162409429564,70.64295236940977,89.82308617481677
+log_ops_media_6m,Historia transaccional,float64,transformación de ops_media_6m ajustada/definida con Train,t,True,False,predictor candidato,True,bajo,68.09069792187404,43.67753403627843,70.20117394298873
+log_grupo_ops_total_t,Vinculación,float64,transformación de grupo_ops_total_t ajustada/definida con Train,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+log_grupo_n_convenios,Vinculación,float64,transformación de grupo_n_convenios ajustada/definida con Train,t,True,False,predictor candidato,True,bajo,100.0,100.0,100.0
+log_grupo_ops_media_3m,Vinculación,float64,transformación de grupo_ops_media_3m ajustada/definida con Train,t,True,False,predictor candidato,True,bajo,91.38132838646598,98.77186603644003,99.97635666485058
+log_grupo_ops_media_6m,Vinculación,float64,transformación de grupo_ops_media_6m ajustada/definida con Train,t,True,False,predictor candidato,True,bajo,78.33376497963232,97.4134448349695,99.25060907287288
+log_peer_ops_mediana_t,Peers,float64,transformación de peer_ops_mediana_t ajustada/definida con Train,t,True,False,predictor candidato,True,bajo,99.99297319978398,99.99899002141154,100.0
+log_peer_ops_media_t,Peers,float64,transformación de peer_ops_media_t ajustada/definida con Train,t,True,False,predictor candidato,True,bajo,99.99297319978398,99.99899002141154,100.0
+log_peer_tarifa_mediana_t,Peers,float64,transformación de peer_tarifa_mediana_t ajustada/definida con Train,t,True,False,predictor candidato,True,bajo,99.99297319978398,99.99899002141154,100.0
+ops_delta_1m_yj,Historia transaccional,float64,transformación de ops_delta_1m ajustada/definida con Train,t,True,False,predictor candidato,True,controlado: parámetros Train,91.64372918310436,84.45339958792873,94.34821492819621
+delta_tarifa_1m_yj,Pricing,float64,transformación de delta_tarifa_1m ajustada/definida con Train,t,True,False,predictor candidato,True,controlado: parámetros Train,91.64372918310436,84.45339958792873,94.34821492819621
+pct_delta_tarifa_1m_yj,Pricing,float64,transformación de pct_delta_tarifa_1m ajustada/definida con Train,t,True,False,predictor candidato,True,controlado: parámetros Train,45.820358848648745,33.679755989173024,39.19962170663761
+gap_anaquel_yj,Pricing,float64,transformación de gap_anaquel ajustada/definida con Train,t,True,False,predictor candidato,True,controlado: parámetros Train,100.0,100.0,100.0
+descuento_rel_anaquel_yj,Pricing,float64,transformación de descuento_rel_anaquel ajustada/definida con Train,t,True,False,predictor candidato,True,controlado: parámetros Train,61.63387158622988,63.031753726820995,61.7419998149652
