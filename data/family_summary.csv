@@ -1,0 +1,13 @@
+familia,n_features,suma_abs_coef,incremento_MAE,interpretacion
+Antigüedad,2,37.60118782199527,0.2968028277521171,Importancia predictiva correlacional; no causal.
+Binning,18,2695.5586112901924,146.97612976357584,Importancia predictiva correlacional; no causal.
+Categoricas,289,216053.97685343472,70.71987890219185,Importancia predictiva correlacional; no causal.
+Contexto grupo,3,42.11122458427148,-1.3970989076429419,Importancia predictiva correlacional; no causal.
+Económica / Comisiones,2,137.36183961074218,15.67787076471518,Importancia predictiva correlacional; no causal.
+Historia transaccional,13,1658.6951572984515,1903.2310279908895,Importancia predictiva correlacional; no causal.
+Missing,2,60.69325268541654,0.3881897422733118,Importancia predictiva correlacional; no causal.
+Peers,15,918.4538085079192,13.520080905275961,Importancia predictiva correlacional; no causal.
+Pricing,12,387.89768308922106,54.26413885190078,Importancia predictiva correlacional; no causal.
+Repricing,8,337.01572307328786,0.8943719289615615,Importancia predictiva correlacional; no causal.
+Temporal,8,791.2240807009351,1.6941835782150747,Importancia predictiva correlacional; no causal.
+Vinculación,18,945.7877215085466,8.89916207601857,Importancia predictiva correlacional; no causal.

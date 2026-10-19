@@ -1,0 +1,86 @@
+{
+  "etapa": "E3_FINAL",
+  "objetivo": "operaciones_t1",
+  "metrica_primaria": "MAE",
+  "metricas_secundarias": [
+    "RMSE",
+    "WAPE",
+    "MdAE"
+  ],
+  "umbral_vs_B0_pct": 10.0,
+  "umbral_vs_B1_pct": 5.0,
+  "ridge_original": {
+    "alpha": 1.0,
+    "solver": "lsqr",
+    "tol": 0.001,
+    "max_iter": 600
+  },
+  "ridge_cv_reducido": {
+    "alpha": 1.0,
+    "solver": "lsqr",
+    "tol": 1e-05,
+    "max_iter": 900
+  },
+  "cuatro_modelos": [
+    "B0_constante",
+    "B1_persistencia",
+    "B2_Ridge_A",
+    "B3_Ridge_B"
+  ],
+  "cv_folds": [
+    [
+      "F1",
+      "2024-08-31",
+      "2024-09-01",
+      "2024-11-30"
+    ],
+    [
+      "F2",
+      "2024-11-30",
+      "2024-12-01",
+      "2025-02-28"
+    ],
+    [
+      "F3",
+      "2025-02-28",
+      "2025-03-01",
+      "2025-05-31"
+    ],
+    [
+      "F4",
+      "2025-05-31",
+      "2025-06-01",
+      "2025-08-31"
+    ]
+  ],
+  "selection_validation_only": true,
+  "conjunto_test_reservado": true,
+  "alpha_fijo": 1.0,
+  "run_id": "20261018T232713Z_03736744",
+  "output_path": "/content/drive/MyDrive/Colab Notebooks/Proyecto Integrador/artifacts_e3/final/corrida_20261018T232713Z_03736744",
+  "pseudonym_cross_run_comparable": false,
+  "mejor_baseline_validation": "B1_persistencia",
+  "features_A": 390,
+  "features_B": 364,
+  "python": "3.13.16",
+  "paquetes": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "matplotlib": "3.10.0",
+    "joblib": "1.6.0"
+  },
+  "fuentes": {
+    "config_e2_sha256": "44b2cd9d6848d0a4e491fe45bc0a5a08609ade10ec26fd46e7c488419ea2429c",
+    "manifest_e2_sha256": "81e179552ecf199393ae020648333a98ebabee92c157cb8029700ed179a81442",
+    "source_base_path": "/content/drive/MyDrive/Colab Notebooks/Proyecto Integrador/Base_multipricing.csv",
+    "source_base_bytes": 130795707,
+    "source_e2_path": "/content/drive/MyDrive/Colab Notebooks/Proyecto Integrador/artifacts_e2",
+    "numpy_seed": 42,
+    "pseudonym_key_external_provided": false,
+    "run_id": "20261018T232713Z_03736744",
+    "notebook_version": "Avance3_Equipo9_Modelo_Baseline_DEFINITIVO_AUDITADO.ipynb",
+    "test_evaluado": false
+  }
+}

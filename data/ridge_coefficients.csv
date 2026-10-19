@@ -1,0 +1,391 @@
+feature,feature_origen,familia,coeficiente,abs_coeficiente
+subproducto__subproducto_EDO CTA ELECTRONICO,subproducto,Categoricas,66179.42934280355,66179.42934280355
+subproducto__subproducto_COM DIF INTER NOK,subproducto,Categoricas,7049.657130111267,7049.657130111267
+subproducto__subproducto_COM DIF CTAS TDC % OK,subproducto,Categoricas,-6363.597228638824,6363.597228638824
+subproducto__subproducto_PAGO SPEI,subproducto,Categoricas,5610.9444033196305,5610.9444033196305
+subproducto__subproducto_infrequent_sklearn,subproducto,Categoricas,3484.990206178518,3484.990206178518
+subproducto__subproducto_RENTA MENSUAL,subproducto,Categoricas,-3077.3246545826037,3077.3246545826037
+cat_low__producto_APIS EMPRESARIALES,producto,Categoricas,2418.4496737044965,2418.4496737044965
+subproducto__subproducto_COM DIF CTAS PROPIAS OK,subproducto,Categoricas,-2410.7083579389346,2410.7083579389346
+subproducto__subproducto_BBVA TRANSFERENCIAS,subproducto,Categoricas,1989.2875905187068,1989.2875905187068
+subproducto__subproducto_PAGO MISMO BANCO,subproducto,Categoricas,1859.3536823908873,1859.3536823908873
+subproducto__subproducto_TRANSFERENCIA BBVA,subproducto,Categoricas,1767.622264271194,1767.622264271194
+subproducto__subproducto_MOVS DEL DIA AUTOMATA,subproducto,Categoricas,-1625.6048159815973,1625.6048159815973
+subproducto__subproducto_COM ESTANDAR CTAS INTER,subproducto,Categoricas,-1622.4313373679604,1622.4313373679604
+subproducto__subproducto_DOMICILIACIONES,subproducto,Categoricas,1603.1440469887066,1603.1440469887066
+subproducto__subproducto_COM DIF INTER OK,subproducto,Categoricas,1554.3956937609755,1554.3956937609755
+subproducto__subproducto_CASH HIST MOV AUTOMATA,subproducto,Categoricas,-1406.9344564806136,1406.9344564806136
+subproducto__subproducto_PAGO DE SERVICIOS POR CAJEROS AUTOMATICO,subproducto,Categoricas,-1399.8326057165234,1399.8326057165234
+subproducto__subproducto_C43 HIST MOV AUTOMATA,subproducto,Categoricas,-1381.9807731257229,1381.9807731257229
+cat_low__producto_DOMICILIACION,producto,Categoricas,1338.211655041407,1338.211655041407
+subproducto__subproducto_CONSULTA CIE AUTOMATA,subproducto,Categoricas,-1319.6187972058754,1319.6187972058754
+subproducto__subproducto_AUDITORIA DE ORDENES Y CONSULT,subproducto,Categoricas,-1280.9564542018718,1280.9564542018718
+subproducto__subproducto_EDO CTA CIE AUTOMATA,subproducto,Categoricas,-1255.224105638964,1255.224105638964
+subproducto__subproducto_REP MOV 2 MESES ATRAS,subproducto,Categoricas,-1233.5399034325908,1233.5399034325908
+subproducto__subproducto_SUSPENSION DE CHEQUES,subproducto,Categoricas,-1227.8400901813352,1227.8400901813352
+subproducto__subproducto_COM DIF CTAS TDC NOK,subproducto,Categoricas,-1227.7209195007003,1227.7209195007003
+subproducto__subproducto_NOMINA AFILIACION AUTOSERVICIO,subproducto,Categoricas,-1165.7454974403172,1165.7454974403172
+subproducto__subproducto_CREDIPROV DOCTOS ENVIO,subproducto,Categoricas,-1158.994238517999,1158.994238517999
+subproducto__subproducto_CONSULTA EDO CTA CIE HIST,subproducto,Categoricas,-1158.7821378663875,1158.7821378663875
+subproducto__subproducto_PPALES DEPOSITOS RECIBIDOS,subproducto,Categoricas,-1077.6765660183335,1077.6765660183335
+subproducto__subproducto_SIPARE IMSS INFONAVIT,subproducto,Categoricas,-1074.7688406599184,1074.7688406599184
+subproducto__subproducto_REP MOV MES ACT,subproducto,Categoricas,-1071.3784093260554,1071.3784093260554
+subproducto__subproducto_PAGARE,subproducto,Categoricas,-1070.6356496958606,1070.6356496958606
+subproducto__subproducto_PROTECCION DE CHEQUES,subproducto,Categoricas,-1066.3849638683134,1066.3849638683134
+subproducto__subproducto_DISPONIBLE 4378,subproducto,Categoricas,-1059.8359127559038,1059.8359127559038
+subproducto__subproducto_BAJA BENEFICIARIAS,subproducto,Categoricas,-1054.4746569063198,1054.4746569063198
+subproducto__subproducto_IMPUESTOS SUA,subproducto,Categoricas,-1051.43925369005,1051.43925369005
+subproducto__subproducto_SIT PAGADOR PAGOS,subproducto,Categoricas,-1049.0731939407945,1049.0731939407945
+subproducto__subproducto_NOMINA DISPER PROPIA INTERBANC,subproducto,Categoricas,-1044.2490488937628,1044.2490488937628
+subproducto__subproducto_REP MOV DEL DIA,subproducto,Categoricas,-1043.3354850497874,1043.3354850497874
+subproducto__subproducto_IMPUESTOS CDMX,subproducto,Categoricas,-1041.6914545664663,1041.6914545664663
+subproducto__subproducto_CHEQUE EN LINEA,subproducto,Categoricas,-1041.5162148572488,1041.5162148572488
+subproducto__subproducto_MOVS INTERBANCARIOS,subproducto,Categoricas,-1036.0047708619454,1036.0047708619454
+subproducto__subproducto_SALDOS PUNTUALES,subproducto,Categoricas,-1029.7752389094705,1029.7752389094705
+subproducto__subproducto_SALDOS GRUPOS,subproducto,Categoricas,-1029.2527092471603,1029.2527092471603
+subproducto__subproducto_LIBERACION DEM,subproducto,Categoricas,-1016.6763602982122,1016.6763602982122
+subproducto__subproducto_MODIFICACION BENEFICIARIAS,subproducto,Categoricas,-1010.7439668423282,1010.7439668423282
+subproducto__subproducto_PAGO TDC INTERBANCARIO,subproducto,Categoricas,-1005.5981715479957,1005.5981715479957
+subproducto__subproducto_ALTA BENEFICIARIAS PUN ARCH,subproducto,Categoricas,-999.1207939335072,999.1207939335072
+subproducto__subproducto_MENSUALIDAD / ANUALIDAD,subproducto,Categoricas,-995.4252579939082,995.4252579939082
+subproducto__subproducto_REPORTE INTEGRAL DE COBRANZA,subproducto,Categoricas,-995.389406892533,995.389406892533
+subproducto__subproducto_IMPORTACION DE LOTES,subproducto,Categoricas,-989.3044996086683,989.3044996086683
+subproducto__subproducto_PAGOS MISMO BCO PUNT GPO PROG,subproducto,Categoricas,-978.7238449083762,978.7238449083762
+subproducto__subproducto_REP MOV MES ANT,subproducto,Categoricas,-963.7775661387514,963.7775661387514
+subproducto__subproducto_ACCESO (LOG ON),subproducto,Categoricas,-960.1375515629616,960.1375515629616
+subproducto__subproducto_RENTA MENSUAL H2H,subproducto,Categoricas,950.7255625890181,950.7255625890181
+subproducto__subproducto_PAGO IMPUESTO SAT,subproducto,Categoricas,-949.3675947235391,949.3675947235391
+subproducto__subproducto_ANUALIDAD,subproducto,Categoricas,-948.935891608552,948.935891608552
+subproducto__subproducto_CONSULTA DE OPERACIONES ENV,subproducto,Categoricas,-947.6803888349046,947.6803888349046
+subproducto__subproducto_MOVIMIENTOS DEL DIA,subproducto,Categoricas,-928.48245293571,928.48245293571
+subproducto__subproducto_SPEI PAGOS INTERB PUNT GPO PRO,subproducto,Categoricas,-926.2930023750339,926.2930023750339
+subproducto__subproducto_PAGO CIE PUNT GPO PROGR,subproducto,Categoricas,-920.7530778710604,920.7530778710604
+subproducto__subproducto_TRASP MISMO BCO PUNT GPO PROGR,subproducto,Categoricas,-897.2387436872145,897.2387436872145
+subproducto__subproducto_PAGO CIE PUNT GPO PROG,subproducto,Categoricas,-896.5266530364298,896.5266530364298
+subproducto__subproducto_EDO CTA ELECTRO PDF,subproducto,Categoricas,-894.8466988493791,894.8466988493791
+subproducto__subproducto_SIT PROVEEDOR CONSULTA,subproducto,Categoricas,-891.4957345006437,891.4957345006437
+subproducto__subproducto_CREDITO LIQ FLEX A PLAZOS,subproducto,Categoricas,-891.4237958790739,891.4237958790739
+num__log_ops_t,log_ops_t,Historia transaccional,884.2667312567708,884.2667312567708
+subproducto__subproducto_PAGO TDC MISMO BANCO,subproducto,Categoricas,-882.1489391025261,882.1489391025261
+subproducto__subproducto_AFILIA Y ADMINISTRA TDDE,subproducto,Categoricas,-878.9569041363832,878.9569041363832
+subproducto__subproducto_COM ESTANDAR CTAS PROPIAS,subproducto,Categoricas,-867.9051934909505,867.9051934909505
+subproducto__subproducto_FONDOS DE INVERSION,subproducto,Categoricas,-857.0839675207537,857.0839675207537
+subproducto__subproducto_REP MOV 5 PERIODOS,subproducto,Categoricas,-851.5786656344794,851.5786656344794
+subproducto__subproducto_BBVA NET CASH,subproducto,Categoricas,-849.1254424354727,849.1254424354727
+subproducto__subproducto_COMPRA VENTA DIVISAS,subproducto,Categoricas,-823.1581053319952,823.1581053319952
+cat_low__ops_t_bin_Q_5,ops_t_bin,Binning,-818.275989008001,818.275989008001
+subproducto__subproducto_PAGO DE SERVICIOS POR INTERNET,subproducto,Categoricas,-815.1644564959411,815.1644564959411
+subproducto__subproducto_CFDI CONSULTAS,subproducto,Categoricas,-796.3816730349122,796.3816730349122
+subproducto__subproducto_CODI QR,subproducto,Categoricas,-772.2124047391978,772.2124047391978
+cat_low__ops_t_bin_Q_1,ops_t_bin,Binning,749.2922013604194,749.2922013604194
+subproducto__subproducto_STREAMING CONSULTAS,subproducto,Categoricas,-746.5551076654327,746.5551076654327
+cat_low__producto_HOST TO HOST SERVICIOS,producto,Categoricas,-745.4085552036163,745.4085552036163
+subproducto__subproducto_COM DIF CTAS PROPIAS NOK,subproducto,Categoricas,744.1310680980273,744.1310680980273
+subproducto__subproducto_PAGOS MISMO BANCO,subproducto,Categoricas,730.6154975448396,730.6154975448396
+subproducto__subproducto_SIT PAGADOR PROVEEDOR,subproducto,Categoricas,-730.0045694098186,730.0045694098186
+subproducto__subproducto_DISPONIBLE 4374,subproducto,Categoricas,-728.2546591716487,728.2546591716487
+subproducto__subproducto_RENTA ENLACE,subproducto,Categoricas,712.7081814537962,712.7081814537962
+subproducto__subproducto_C43 HISTORICO MOVIMIENTOS,subproducto,Categoricas,-710.7885195935042,710.7885195935042
+subproducto__subproducto_COBRANZA EMP ESPECIAL,subproducto,Categoricas,-707.2105227685354,707.2105227685354
+subproducto__subproducto_CONSULTA CIE ON LINE,subproducto,Categoricas,-704.3446496653158,704.3446496653158
+subproducto__subproducto_SPEI TRANSFERENCIAS,subproducto,Categoricas,-699.301124299849,699.301124299849
+subproducto__subproducto_TRASP SPEI INTER PUNT GPO PROG,subproducto,Categoricas,-689.1433987100048,689.1433987100048
+subproducto__subproducto_SPID PAGOS,subproducto,Categoricas,-684.6537518324486,684.6537518324486
+subproducto__subproducto_NOMINA EN TIEMPO REAL,subproducto,Categoricas,-669.550604328029,669.550604328029
+subproducto__subproducto_CONSULTA CHEQUES DEVUELTOS,subproducto,Categoricas,-617.6320930340045,617.6320930340045
+subproducto__subproducto_CREDIPROVEEDORES PROVEEDOR,subproducto,Categoricas,-566.6881833114476,566.6881833114476
+cat_low__producto_CONCENTRACION INMEDIATA EMPRESARIAL CIE,producto,Categoricas,-560.9836807811143,560.9836807811143
+cat_low__producto_SERVICIO INTEGRAL DE TESORERIA (SIT),producto,Categoricas,-545.682734337496,545.682734337496
+subproducto__subproducto_COM PARCIAL CTAS PROPIAS OK,subproducto,Categoricas,-521.3912019664925,521.3912019664925
+cat_low__producto_DEPOSITO EMPRESARIAL DOLARES,producto,Categoricas,-502.8393071588484,502.8393071588484
+subproducto__subproducto_MENSUALIDAD,subproducto,Categoricas,-502.1831840553444,502.1831840553444
+subproducto__subproducto_REPORTE CIE 7 24,subproducto,Categoricas,-499.9303021513032,499.9303021513032
+subproducto__subproducto_DESCARGA EDO CTA GPO,subproducto,Categoricas,-499.03919794022573,499.03919794022573
+cat_low__producto_DEPOSITO EMPRESARIAL,producto,Categoricas,-495.0364110101862,495.0364110101862
+subproducto__subproducto_CASH HISTORICO MOVIMIENTOS,subproducto,Categoricas,-483.4051383498417,483.4051383498417
+subproducto__subproducto_OPIS PUNTUAL GPO,subproducto,Categoricas,-482.6543346007066,482.6543346007066
+subproducto__subproducto_DISPONIBLE 4376,subproducto,Categoricas,-482.64491786058517,482.64491786058517
+subproducto__subproducto_REPORTES SICOCO VARS PER,subproducto,Categoricas,-465.1829055970289,465.1829055970289
+subproducto__subproducto_CODI PLUS,subproducto,Categoricas,-465.01098743124857,465.01098743124857
+subproducto__subproducto_TRANSFERENCIA SPEI,subproducto,Categoricas,-459.78607467311855,459.78607467311855
+subproducto__subproducto_PIVOT NET MENSUALIDAD,subproducto,Categoricas,-454.4594136724829,454.4594136724829
+subproducto__subproducto_CREDIPROV PROVEE ENVIO,subproducto,Categoricas,-443.88310851346375,443.88310851346375
+subproducto__subproducto_CREDIPROVEDORES COMPRADOR,subproducto,Categoricas,-417.09841852791783,417.09841852791783
+subproducto__subproducto_PAGO BBVA CIE CODI,subproducto,Categoricas,-410.79366259990604,410.79366259990604
+subproducto__subproducto_PAGO TDC BANCOMER,subproducto,Categoricas,-396.7219143807279,396.7219143807279
+subproducto__subproducto_CREDIPROVEEDORES DOCUMENTOS,subproducto,Categoricas,388.7573716038947,388.7573716038947
+cat_low__producto_OPERACION T.I.B.,producto,Categoricas,-385.4158116692006,385.4158116692006
+cat_low__producto_BBVA NET CASH,producto,Categoricas,376.83759993054565,376.83759993054565
+cat_low__producto_PAGOS ELECTRONICOS PAGEL,producto,Categoricas,-375.24447189488217,375.24447189488217
+cat_low__ops_t_bin_Q_2,ops_t_bin,Binning,357.4156046714611,357.4156046714611
+subproducto__subproducto_DEP. CIE TDC VENTANILLA,subproducto,Categoricas,354.45611008638735,354.45611008638735
+subproducto__subproducto_LICENCIA AUTOMATA,subproducto,Categoricas,-351.65132093017064,351.65132093017064
+subproducto__subproducto_DEM BOVEDA MANEJO DE EFECTIVO,subproducto,Categoricas,-332.1599741528778,332.1599741528778
+subproducto__subproducto_COMISION CIE,subproducto,Categoricas,331.28823144556867,331.28823144556867
+subproducto__subproducto_MT 940,subproducto,Categoricas,330.75958067484993,330.75958067484993
+subproducto__subproducto_RAFAGA PERSONALIZADA,subproducto,Categoricas,-327.5298815995559,327.5298815995559
+subproducto__subproducto_IMPLEMENTACION DEL CANAL,subproducto,Categoricas,312.37234755733635,312.37234755733635
+subproducto__subproducto_SIT DOCUMENTOS,subproducto,Categoricas,312.1610676337982,312.1610676337982
+cat_low__producto_CENTRALIZACION DE CUENTAS,producto,Categoricas,-311.49623403265133,311.49623403265133
+subproducto__subproducto_PAGO CIE,subproducto,Categoricas,-311.46000398413133,311.46000398413133
+subproducto__subproducto_SIT PROVEEDORES,subproducto,Categoricas,309.23848772773374,309.23848772773374
+cat_low__ops_t_bin_Q_4,ops_t_bin,Binning,-299.16386027841213,299.16386027841213
+subproducto__subproducto_NOMINA EXPRESS,subproducto,Categoricas,297.10500941908265,297.10500941908265
+subproducto__subproducto_TRANSFERENCIAS BBVA,subproducto,Categoricas,296.0628764165552,296.0628764165552
+num__log_tarifa_anaquel_t,log_tarifa_anaquel_t,Pricing,-290.6416803818201,290.6416803818201
+subproducto__subproducto_PAGO INTERBANCARIO MENOR,subproducto,Categoricas,-289.05147559679637,289.05147559679637
+subproducto__subproducto_PAGO SERV INTERBANCARIO SPEI,subproducto,Categoricas,278.65847142472705,278.65847142472705
+subproducto__subproducto_NUMERO DE BARRIDOS,subproducto,Categoricas,-272.1989716997271,272.1989716997271
+subproducto__subproducto_TPVS CONCILIACION,subproducto,Categoricas,-268.23808176403213,268.23808176403213
+num__mes,mes,Temporal,265.9531464542685,265.9531464542685
+subproducto__subproducto_CHEQUE ADICIONAL,subproducto,Categoricas,-265.2662968663153,265.2662968663153
+subproducto__subproducto_PAGOS INTERNACIONALES (SWIFT),subproducto,Categoricas,265.20055528049454,265.20055528049454
+subproducto__subproducto_PAGO DE SERVICIOS POR BBVA NET CASH,subproducto,Categoricas,-261.91339195936706,261.91339195936706
+cat_low__producto_SWIFT,producto,Categoricas,-259.7171101278094,259.7171101278094
+subproducto__subproducto_PAGO INTERBANCARIO MAYOR,subproducto,Categoricas,-258.6500182233299,258.6500182233299
+subproducto__subproducto_IMPUESTOS ADUANALES,subproducto,Categoricas,-254.90548089501354,254.90548089501354
+subproducto__subproducto_PAGO DE SERVICIOS POR CASH WINDOWS,subproducto,Categoricas,254.132134063159,254.132134063159
+subproducto__subproducto_CONSULTA CREDIPROV PROVEDOR,subproducto,Categoricas,253.56696109488013,253.56696109488013
+subproducto__subproducto_PAGO INTERBANCARIO CIE CODI,subproducto,Categoricas,-251.85697508136795,251.85697508136795
+subproducto__subproducto_DISPERSION A CONVENIOS CIE,subproducto,Categoricas,-248.0229118305919,248.0229118305919
+subproducto__subproducto_CLIENT TRADE,subproducto,Categoricas,-244.41771399215506,244.41771399215506
+subproducto__subproducto_MENSAJE SWIFT,subproducto,Categoricas,-240.52868187656162,240.52868187656162
+subproducto__subproducto_FACTOR AL MILLAR POR MONTO CENTRALIZADO,subproducto,Categoricas,-233.74535689984486,233.74535689984486
+subproducto__subproducto_PAGO A TERECEROS,subproducto,Categoricas,-231.89592539090054,231.89592539090054
+subproducto__subproducto_ADMINISTRACION TDCE,subproducto,Categoricas,-231.6566097691281,231.6566097691281
+subproducto__subproducto_ESTADO DE CUENTA MULTICASH PEMEX,subproducto,Categoricas,-228.64074320466628,228.64074320466628
+subproducto__subproducto_COMISION P.E.,subproducto,Categoricas,-228.43997737513712,228.43997737513712
+subproducto__subproducto_DOTACIONES DEM,subproducto,Categoricas,-227.45756433318138,227.45756433318138
+subproducto__subproducto_RENTA MENSUAL ESTRUCTURA,subproducto,Categoricas,224.7798128254232,224.7798128254232
+subproducto__subproducto_DEPOSITO DEM,subproducto,Categoricas,-224.19268149478646,224.19268149478646
+subproducto__subproducto_CONSULTA PAGARE SDOS MOVS,subproducto,Categoricas,-218.27226953157478,218.27226953157478
+subproducto__subproducto_CIE EFECTIVO,subproducto,Categoricas,212.59903651668677,212.59903651668677
+cat_low__producto_SERVICIOS BBVA NET CASH,producto,Categoricas,210.78738721785774,210.78738721785774
+cat_low__industria_UTILITIES,industria,Categoricas,-210.71125663919452,210.71125663919452
+subproducto__subproducto_RENTA SWIFT MT940 RECIBIDO,subproducto,Categoricas,210.0075287044454,210.0075287044454
+subproducto__subproducto_RENTA SWIFT MT942 ENVIADO,subproducto,Categoricas,208.0441514328564,208.0441514328564
+subproducto__subproducto_SIT ALTA SOLIC CONSULTA,subproducto,Categoricas,-207.59260970468458,207.59260970468458
+subproducto__subproducto_DEPOSITOS DEM,subproducto,Categoricas,-207.0676200870853,207.0676200870853
+subproducto__subproducto_SERVICIO SWIFT,subproducto,Categoricas,206.39761336791463,206.39761336791463
+subproducto__subproducto_CIE COBRO INMEDIATO SBF,subproducto,Categoricas,205.93351655122248,205.93351655122248
+subproducto__subproducto_TRANSFERENCIAS INTERNACIONALES,subproducto,Categoricas,-204.8391483821314,204.8391483821314
+subproducto__subproducto_CIE CHQS. BBVA,subproducto,Categoricas,204.67200135419833,204.67200135419833
+subproducto__subproducto_MANEJO DE EFECTIVO,subproducto,Categoricas,-202.5868137123108,202.5868137123108
+subproducto__subproducto_TUNEL COBRANZA TPV,subproducto,Categoricas,-196.9468661157653,196.9468661157653
+subproducto__subproducto_CIE TDC BBVA.MX,subproducto,Categoricas,196.9126069103212,196.9126069103212
+subproducto__subproducto_DISPERSION A CUENTAS PROPIAS,subproducto,Categoricas,-189.9094498964954,189.9094498964954
+subproducto__subproducto_TRANSFERENCIAS SPID,subproducto,Categoricas,-187.01706228208025,187.01706228208025
+subproducto__subproducto_CONEXION ONE VIEW,subproducto,Categoricas,-184.25189675562177,184.25189675562177
+subproducto__subproducto_CIE DIARIO,subproducto,Categoricas,181.64778432088195,181.64778432088195
+num__grupo_hist_n_3,grupo_hist_n_3,Vinculación,-180.02691484491373,180.02691484491373
+cat_low__moneda_EUR,moneda,Categoricas,-178.95885338476134,178.95885338476134
+cat_low__moneda_MXP,moneda,Categoricas,174.4068079173089,174.4068079173089
+num__grupo_n_lineas,grupo_n_lineas,Vinculación,170.05992758366145,170.05992758366145
+subproducto__subproducto_CECOBAN PAGOS INTERBAN P GPO,subproducto,Categoricas,-165.00463591993733,165.00463591993733
+subproducto__subproducto_DISPONIBLE 4381,subproducto,Categoricas,-164.97347327786017,164.97347327786017
+subproducto__subproducto_TITULAR BENEFICIARIAS A VOL,subproducto,Categoricas,163.61956351177147,163.61956351177147
+cat_low__peer_nivel_no_disponible,peer_nivel,Peers,-162.46199991579107,162.46199991579107
+binary__peer_calificado_t,peer_calificado_t,Peers,162.46199777488692,162.46199777488692
+subproducto__subproducto_ORDEN DE PAGO INTERNACIONAL,subproducto,Categoricas,161.96246533647823,161.96246533647823
+subproducto__subproducto_CONSULTA IMAGENES DIGITALIZADA,subproducto,Categoricas,-161.79977921926462,161.79977921926462
+subproducto__subproducto_COM PARCIAL CTAS PROPIAS NOK,subproducto,Categoricas,-158.41258830113085,158.41258830113085
+subproducto__subproducto_ORDEN DE PAGO INT.,subproducto,Categoricas,156.36268063089264,156.36268063089264
+subproducto__subproducto_CIE REFRENCIADO TG ENVIO,subproducto,Categoricas,-155.69126589125975,155.69126589125975
+subproducto__subproducto_MOVIMIENTOS HISTORICOS C43,subproducto,Categoricas,-153.80414056507274,153.80414056507274
+binary__ops_lag_1_disponible,ops_lag_1_disponible,Historia transaccional,151.65325995432647,151.65325995432647
+subproducto__subproducto_TRANSFERENCIA SPID,subproducto,Categoricas,-149.2240389064797,149.2240389064797
+cat_low__trimestre_T1,trimestre,Temporal,146.1535857985077,146.1535857985077
+num__grupo_n_productos,grupo_n_productos,Vinculación,-143.42800102475329,143.42800102475329
+subproducto__subproducto_DISPERSION SPEI CUENTAS INTERBANCARIAS,subproducto,Categoricas,-142.59473032016845,142.59473032016845
+cat_low__industria_CONSUMER,industria,Categoricas,142.2383456049613,142.2383456049613
+subproducto__subproducto_CREDITO LIQUIDO ANUAL,subproducto,Categoricas,-141.78726426957013,141.78726426957013
+cat_low__trimestre_T4,trimestre,Temporal,-141.73729560134103,141.73729560134103
+subproducto__subproducto_SALDOS ONE VIEW P G,subproducto,Categoricas,-140.40949593313803,140.40949593313803
+subproducto__subproducto_DISPONIBLE 4380,subproducto,Categoricas,-137.53496786883645,137.53496786883645
+subproducto__subproducto_TRANSFERENCIA INTERNACIONAL,subproducto,Categoricas,-135.77258943038368,135.77258943038368
+subproducto__subproducto_TRANSFERENCIAS SPEI,subproducto,Categoricas,-135.34704112303513,135.34704112303513
+subproducto__subproducto_PAGOS INT RECIB CONSUL DEL DIA,subproducto,Categoricas,-133.6994880488407,133.6994880488407
+subproducto__subproducto_DEM BOVEDA CHQS. BBVA,subproducto,Categoricas,-133.56408843171823,133.56408843171823
+num__log_ingreso_bruto_t,log_ingreso_bruto_t,Económica / Comisiones,-133.47573956604364,133.47573956604364
+num__peer_posicion_tarifaria_mediana_t,peer_posicion_tarifaria_mediana_t,Peers,129.4245634787449,129.4245634787449
+cat_low__producto_CREDIPROVEEDORES,producto,Categoricas,-128.45948208452396,128.45948208452396
+subproducto__subproducto_PAGO SERV VENTANILLA COBRO INM,subproducto,Categoricas,123.91602756123032,123.91602756123032
+cat_low__industria_TRANSPORTATION,industria,Categoricas,119.15492249547343,119.15492249547343
+subproducto__subproducto_FICHA DE DEPOSITO,subproducto,Categoricas,-118.49622103017002,118.49622103017002
+num__ops_t,ops_t,Historia transaccional,117.72037884663574,117.72037884663574
+subproducto__subproducto_MOVIMIENTOS ONE VIEW,subproducto,Categoricas,-117.71982526755298,117.71982526755298
+subproducto__subproducto_MOVIMIENTOS DEL DIA C43,subproducto,Categoricas,-116.95539480085579,116.95539480085579
+subproducto__subproducto_CIE EFECTIVO CASH WINDOWS,subproducto,Categoricas,116.62597733735696,116.62597733735696
+subproducto__subproducto_NOTIFICACION CODI,subproducto,Categoricas,115.91003151167314,115.91003151167314
+subproducto__subproducto_CAJERO RECEPTOR X MILLAR,subproducto,Categoricas,114.28924534463647,114.28924534463647
+"cat_low__posicion_tarifaria_bin_(0,.25]",posicion_tarifaria_bin,Binning,112.90215865569346,112.90215865569346
+subproducto__subproducto_CIE TIB CHQS SBF CORRESPONSALES,subproducto,Categoricas,-111.9722251446883,111.9722251446883
+subproducto__subproducto_RENTA SWIFT MT940 ENVIADO,subproducto,Categoricas,111.69929676695699,111.69929676695699
+num__ops_delta_1m_yj,ops_delta_1m_yj,Historia transaccional,-108.72899349433773,108.72899349433773
+subproducto__subproducto_DEM BOVEDA COBRO INMEDIATO SBF,subproducto,Categoricas,-108.51309822084119,108.51309822084119
+subproducto__subproducto_PAGO DE SERVICIOS EN VENTANILLA,subproducto,Categoricas,108.51077563775311,108.51077563775311
+subproducto__subproducto_DISPERSION SPID CUENTAS INTERBANCARIAS,subproducto,Categoricas,108.33976096965624,108.33976096965624
+num__ops_delta_1m,ops_delta_1m,Historia transaccional,106.17822663013565,106.17822663013565
+cat_low__industria_INSTITUTIONS,industria,Categoricas,-105.56500530369651,105.56500530369651
+subproducto__subproducto_CIE EFECTIVO BBVA NET CASH (PIBE),subproducto,Categoricas,105.21282264639616,105.21282264639616
+binary__ops_lag_2_disponible,ops_lag_2_disponible,Historia transaccional,-104.47421407462078,104.47421407462078
+subproducto__subproducto_PAGO CIE INTERBANCARIO TEF,subproducto,Categoricas,104.3920382357891,104.3920382357891
+subproducto__subproducto_TRASP M BANCO AGENCIA P G,subproducto,Categoricas,-101.80852300558882,101.80852300558882
+subproducto__subproducto_ESTADO DE CUENTA MULTICASH,subproducto,Categoricas,-99.71861903930277,99.71861903930277
+subproducto__subproducto_PAGOS URGENTES LOTE,subproducto,Categoricas,98.53786266493323,98.53786266493323
+subproducto__subproducto_TRANSFERENCIAS MISMO BANCO,subproducto,Categoricas,98.39354674077094,98.39354674077094
+binary__repricing_ultimo_mes,repricing_ultimo_mes,Repricing,95.02597602337777,95.02597602337777
+subproducto__subproducto_COMISION DEM,subproducto,Categoricas,93.63201407202261,93.63201407202261
+cat_low__industria_FINANCIAL INSTITUTIONS,industria,Categoricas,-93.47537598727786,93.47537598727786
+subproducto__subproducto_CIERRE CONTABLE DEM,subproducto,Categoricas,93.2030494997733,93.2030494997733
+subproducto__subproducto_PAGOS CIE,subproducto,Categoricas,92.20901849344833,92.20901849344833
+"cat_low__industria_AUTOS, COMPONENTS & DURABLE GOODS",industria,Categoricas,92.05006103252094,92.05006103252094
+num__grupo_n_clientes,grupo_n_clientes,Vinculación,-90.68877715928993,90.68877715928993
+subproducto__subproducto_COMISION MENSUAL DOTACIONES,subproducto,Categoricas,-89.80903481083688,89.80903481083688
+subproducto__subproducto_PAGOS TESOFE,subproducto,Categoricas,-87.55748829614512,87.55748829614512
+cat_low__antiguedad_bin_Q_4,antiguedad_bin,Binning,86.55387194034219,86.55387194034219
+subproducto__subproducto_ACTUALIZACION DIFERENCIA,subproducto,Categoricas,86.01978563933645,86.01978563933645
+subproducto__subproducto_BILLETE PROB FALSO DEM,subproducto,Categoricas,85.41179377328686,85.41179377328686
+cat_low__peer_nivel_producto,peer_nivel,Peers,85.16393202404409,85.16393202404409
+subproducto__subproducto_PAGO SERV VENTANILLA CHQ. BANCOMER,subproducto,Categoricas,85.08142765671174,85.08142765671174
+subproducto__subproducto_DEM COBRO INMEDIATO SALVO BUEN FIN,subproducto,Categoricas,-84.95920056650348,84.95920056650348
+num__meses_desde_inicio,meses_desde_inicio,Temporal,-82.74964855660544,82.74964855660544
+subproducto__subproducto_COMISION SWIFT MT940,subproducto,Categoricas,80.22428039684358,80.22428039684358
+cat_low__direccion_ultimo_repricing_sin_historial,direccion_ultimo_repricing,Repricing,79.1254086638915,79.1254086638915
+num__grupo_n_unidades,grupo_n_unidades,Vinculación,78.87668473457263,78.87668473457263
+subproducto__subproducto_CONSULTA FONDOS DE INVERSION,subproducto,Categoricas,-78.76166519633422,78.76166519633422
+num__repricing_ultimos_3m,repricing_ultimos_3m,Repricing,-78.69707593987394,78.69707593987394
+cat_low__peer_nivel_industria_producto,peer_nivel,Peers,77.29806566955652,77.29806566955652
+subproducto__subproducto_SERVICIO INTEGRAL DE TESORERIA,subproducto,Categoricas,-76.92111127136599,76.92111127136599
+cat_low__direccion_ultimo_repricing_bajada,direccion_ultimo_repricing,Repricing,-76.88872420888167,76.88872420888167
+num__peer_ops_media_t,peer_ops_media_t,Peers,-74.56138711821232,74.56138711821232
+binary__ops_lag_6_disponible,ops_lag_6_disponible,Historia transaccional,73.23083452560401,73.23083452560401
+binary__anaquel_valido,anaquel_valido,Pricing,72.49861970456358,72.49861970456358
+cat_low__posicion_tarifaria_bin_No disponible,posicion_tarifaria_bin,Binning,-72.49861826533592,72.49861826533592
+subproducto__subproducto_COMPROBANTES SIT PDF,subproducto,Categoricas,70.96996332500221,70.96996332500221
+subproducto__subproducto_DEM EFECTIVO,subproducto,Categoricas,69.09852826586126,69.09852826586126
+subproducto__subproducto_INTERESES OVERNIGHT,subproducto,Categoricas,-67.72568680949438,67.72568680949438
+subproducto__subproducto_ACT CHEQUERAS,subproducto,Categoricas,-66.67355994081628,66.67355994081628
+cat_low__antiguedad_bin_Q_5,antiguedad_bin,Binning,-65.46544621544,65.46544621544
+num__grupo_antiguedad_max_meses,grupo_antiguedad_max_meses,Vinculación,64.96655761139702,64.96655761139702
+subproducto__subproducto_LIBERACION DIREFENCIAS DEM,subproducto,Categoricas,64.66047222525057,64.66047222525057
+subproducto__subproducto_PAGO CREDIPROVEEDORES SPEI,subproducto,Categoricas,-64.4484769888371,64.4484769888371
+subproducto__subproducto_PAGO CREDIPROVEEDORES PROPIOS,subproducto,Categoricas,-64.01100509568684,64.01100509568684
+subproducto__subproducto_TRANSF EN TIEMPO REAL,subproducto,Categoricas,-62.620612838499426,62.620612838499426
+subproducto__subproducto_CECOBAN PAGOS INTERBAN P GPO.,subproducto,Categoricas,-60.79076675635376,60.79076675635376
+subproducto__subproducto_CONSULTA CREDIPROV DOCUMENTOS,subproducto,Categoricas,55.449728917837206,55.449728917837206
+subproducto__subproducto_CIE BOVEDA EFECTIVO,subproducto,Categoricas,53.35152116465751,53.35152116465751
+subproducto__subproducto_VOSTRO SPEI BCO EXTRANJERO,subproducto,Categoricas,-52.205752985711335,52.205752985711335
+subproducto__subproducto_EDO CTA SWIFT MSG ACT FORMATO,subproducto,Categoricas,-51.1733046441543,51.1733046441543
+subproducto__subproducto_CONSULTA DE COMISIONES,subproducto,Categoricas,-50.59210505127664,50.59210505127664
+subproducto__subproducto_DEM CHQS. BBVA,subproducto,Categoricas,-50.51317376995315,50.51317376995315
+cat_low__trimestre_T3,trimestre,Temporal,-50.04948201718493,50.04948201718493
+subproducto__subproducto_PAGO CIE INTERBANCARIO SPEI,subproducto,Categoricas,49.8128159055268,49.8128159055268
+num__log_peer_ops_mediana_t,log_peer_ops_mediana_t,Peers,-49.012336618543536,49.012336618543536
+num__share_producto_ops_grupo,share_producto_ops_grupo,Vinculación,-48.90047941049906,48.90047941049906
+cat_low__industria_HEALTHCARE,industria,Categoricas,48.033904276369356,48.033904276369356
+subproducto__subproducto_CIE EFECTIVO BBVA.MX,subproducto,Categoricas,48.0053827066056,48.0053827066056
+subproducto__subproducto_DEM MANEJO DE EFECTIVO,subproducto,Categoricas,-47.94029366416263,47.94029366416263
+subproducto__subproducto_TITULAR CUENTAS MISMO BANCO,subproducto,Categoricas,-47.91242152094867,47.91242152094867
+subproducto__subproducto_DIFERENCIAS ADMINISTRATIVAS DEM,subproducto,Categoricas,47.28806504812093,47.28806504812093
+num__ops_hist_n_3,ops_hist_n_3,Historia transaccional,47.17904991463232,47.17904991463232
+subproducto__subproducto_PAGO REFERENCIADO SAT,subproducto,Categoricas,47.09791899421265,47.09791899421265
+subproducto__subproducto_NOMINA,subproducto,Categoricas,-46.25037338825027,46.25037338825027
+cat_low__trimestre_T2,trimestre,Temporal,45.633191498843225,45.633191498843225
+subproducto__subproducto_PAGO REF INTERBANCARIO SPEI,subproducto,Categoricas,44.691160370037,44.691160370037
+subproducto__subproducto_CIE CAJEROS AUTOMATICOS,subproducto,Categoricas,-43.987577913040106,43.987577913040106
+subproducto__subproducto_PROTECCION DE CHEQUES LINEA,subproducto,Categoricas,-43.63818968218706,43.63818968218706
+num__log_peer_tarifa_mediana_t,log_peer_tarifa_mediana_t,Peers,42.66999628743431,42.66999628743431
+cyclic__mes_sin,mes_sin,Temporal,41.569153861857224,41.569153861857224
+num__grupo_hist_n_6,grupo_hist_n_6,Vinculación,41.0839457498427,41.0839457498427
+num__peer_grupos_n_t,peer_grupos_n_t,Peers,38.01825743243505,38.01825743243505
+subproducto__subproducto_MODULO DE ENCRIPCION,subproducto,Categoricas,-37.04633127816967,37.04633127816967
+subproducto__subproducto_REINTENTOS,subproducto,Categoricas,35.91204249639838,35.91204249639838
+subproducto__subproducto_PARAMETROS DEM,subproducto,Categoricas,-35.55313855030047,35.55313855030047
+binary__missing_industria,missing_industria,Missing,-35.46153938769725,35.46153938769725
+cat_low__industria_Desconocido,industria,Categoricas,-35.46153938769725,35.46153938769725
+cat_low__producto_SERVICIOS T.I.B.,producto,Categoricas,-34.00251783126703,34.00251783126703
+subproducto__subproducto_PAGO DE SERVICIOS POR TERMINAL PUNTO VTA,subproducto,Categoricas,-33.72510069568827,33.72510069568827
+subproducto__subproducto_DOMICILIACION EN LINEA,subproducto,Categoricas,-33.4879715327946,33.4879715327946
+num__grupo_n_subproductos,grupo_n_subproductos,Vinculación,33.46995879364414,33.46995879364414
+subproducto__subproducto_ESTADO DE CUENTA XML,subproducto,Categoricas,-32.618259555358826,32.618259555358826
+cat_low__posicion_tarifaria_bin_>1,posicion_tarifaria_bin,Binning,-32.15410117386216,32.15410117386216
+num__peer_n_t,peer_n_t,Peers,-31.789516397915325,31.789516397915325
+num__grupo_n_tarifas,grupo_n_tarifas,Contexto grupo,31.7390658219944,31.7390658219944
+subproducto__subproducto_CREDIPROV DOCTOS TG ENVIO,subproducto,Categoricas,-31.47542096596686,31.47542096596686
+cat_low__antiguedad_bin_Q_3,antiguedad_bin,Binning,-31.027591857323287,31.027591857323287
+subproducto__subproducto_CONSULTA CMPA VTA DIVISAS,subproducto,Categoricas,-30.095410993371626,30.095410993371626
+subproducto__subproducto_DOMICILIACIONES TG,subproducto,Categoricas,-29.826714967354835,29.826714967354835
+num__ops_hist_n_6,ops_hist_n_6,Historia transaccional,-29.65592363292455,29.65592363292455
+subproducto__subproducto_DINERO MOVIL MASIVO,subproducto,Categoricas,28.92555285924467,28.92555285924467
+num__peer_ops_mediana_t,peer_ops_mediana_t,Peers,26.583367258162326,26.583367258162326
+num__grupo_antiguedad_mediana_meses,grupo_antiguedad_mediana_meses,Vinculación,-25.486411780225716,25.486411780225716
+binary__missing_moneda,missing_moneda,Missing,25.231713297719285,25.231713297719285
+cat_low__moneda_Desconocido,moneda,Categoricas,25.231713297719285,25.231713297719285
+subproducto__subproducto_CIE EFECTIVO POR APIS BBVA(APIB),subproducto,Categoricas,-23.997523912763224,23.997523912763224
+subproducto__subproducto_RENTA MENSUAL CUENTAS ASOCIADAS,subproducto,Categoricas,-23.436228574788455,23.436228574788455
+num__grupo_ops_cv_6m,grupo_ops_cv_6m,Vinculación,23.319467799146143,23.319467799146143
+subproducto__subproducto_COMISION SWIFT MT942,subproducto,Categoricas,-22.933819281840655,22.933819281840655
+cat_low__industria_REAL ESTATE,industria,Categoricas,21.759117872163813,21.759117872163813
+binary__ops_lag_3_disponible,ops_lag_3_disponible,Historia transaccional,21.097839153005882,21.097839153005882
+cat_low__moneda_USD,moneda,Categoricas,-20.679670251009732,20.679670251009732
+subproducto__subproducto_INV REPORTO,subproducto,Categoricas,-20.2846954114432,20.2846954114432
+num__peer_tarifa_mediana_t,peer_tarifa_mediana_t,Peers,-19.9230586868795,19.9230586868795
+num__antiguedad_meses,antiguedad_meses,Antigüedad,-19.328794944514797,19.328794944514797
+binary__seniority_invalido,seniority_invalido,Antigüedad,18.272392877480467,18.272392877480467
+cat_low__antiguedad_bin_No disponible,antiguedad_bin,Binning,18.272392877480467,18.272392877480467
+num__descuento_rel_anaquel_yj,descuento_rel_anaquel_yj,Pricing,-18.198619012784146,18.198619012784146
+num__log_peer_ops_media_t,log_peer_ops_media_t,Peers,18.03265186029088,18.03265186029088
+cat_low__industria_LEISURE & CONSUMER SERVICES,industria,Categoricas,-17.411048173003664,17.411048173003664
+cyclic__mes_cos,mes_cos,Temporal,-17.378576912327144,17.378576912327144
+cat_low__industria_CONSTRUCTION & CONSTRUCTION MATERIALS,industria,Categoricas,17.193939838015613,17.193939838015613
+num__grupo_subproductos_por_producto,grupo_subproductos_por_producto,Vinculación,-15.464721803409125,15.464721803409125
+subproducto__subproducto_DEM BOVEDA EFECTIVO,subproducto,Categoricas,-14.406369971863532,14.406369971863532
+cat_low__industria_FINANCIAL SERVICES,industria,Categoricas,14.071096440343306,14.071096440343306
+num__ops_lag_2,ops_lag_2,Historia transaccional,12.747773596795376,12.747773596795376
+cat_low__industria_ENERGY (OIL & GAS),industria,Categoricas,12.595887375700975,12.595887375700975
+subproducto__subproducto_CREDIPROV PROVEE TG ENVIO,subproducto,Categoricas,-12.25578004347025,12.25578004347025
+"cat_low__posicion_tarifaria_bin_(.75,1]",posicion_tarifaria_bin,Binning,-11.837512113597953,11.837512113597953
+cat_low__ops_t_bin_Q_3,ops_t_bin,Binning,10.732053037541618,10.732053037541618
+num__grupo_ops_std_3m,grupo_ops_std_3m,Vinculación,-10.088190801792905,10.088190801792905
+cat_low__posicion_tarifaria_bin_<=0,posicion_tarifaria_bin,Binning,9.905132936705904,9.905132936705904
+cat_low__antiguedad_bin_Q_2,antiguedad_bin,Binning,-9.648361814457246,9.648361814457246
+num__grupo_n_convenios,grupo_n_convenios,Vinculación,-8.65951660447146,8.65951660447146
+cat_low__industria_RETAIL,industria,Categoricas,-8.56270535830739,8.56270535830739
+"cat_low__industria_TELECOMS, TECHNOLOGY & MEDIA",industria,Categoricas,8.193140610134156,8.193140610134156
+subproducto__subproducto_PAGO DE SERVICIOS POR APIS BBVA,subproducto,Categoricas,8.162734568947515,8.162734568947515
+cat_low__industria_BASIC MATERIALS,industria,Categoricas,8.118454356620381,8.118454356620381
+"cat_low__posicion_tarifaria_bin_(.50,.75]",posicion_tarifaria_bin,Binning,-7.707820018463572,7.707820018463572
+cat_low__industria_BASIC MATERIALS II,industria,Categoricas,-7.699544127235375,7.699544127235375
+num__grupo_tarifa_media,grupo_tarifa_media,Contexto grupo,-7.291145945937463,7.291145945937463
+subproducto__subproducto_NUMERO DE COBERTURAS,subproducto,Categoricas,-6.895489644277817,6.895489644277817
+num__share_subproducto_ops_grupo,share_subproducto_ops_grupo,Vinculación,-5.92824354737975,5.92824354737975
+num__meses_desde_repricing,meses_desde_repricing,Repricing,4.618050525009464,4.618050525009464
+cat_low__industria_CAPITAL GOODS & INDUSTRIAL SERVICES,industria,Categoricas,-4.522397786154237,4.522397786154237
+subproducto__subproducto_PAGO REF INTERBANCARIO TEF,subproducto,Categoricas,-4.34591881273376,4.34591881273376
+num__grupo_ops_lag_1,grupo_ops_lag_1,Vinculación,4.132664933439278,4.132664933439278
+num__ingreso_bruto_t,ingreso_bruto_t,Económica / Comisiones,3.886100044698532,3.886100044698532
+num__grupo_tarifa_std,grupo_tarifa_std,Contexto grupo,3.0810128163396193,3.0810128163396193
+num__descuento_rel_anaquel,descuento_rel_anaquel,Pricing,-2.68722666234346,2.68722666234346
+num__posicion_tarifaria,posicion_tarifaria,Pricing,2.687226662296546,2.687226662296546
+cat_low__direccion_ultimo_repricing_subida,direccion_ultimo_repricing,Repricing,-2.2366866078997063,2.2366866078997063
+subproducto__subproducto_ESTADOS DE CUENTA PDF,subproducto,Categoricas,-1.6602833452656998,1.6602833452656998
+subproducto__subproducto_OPERACION T.I.B.,subproducto,Categoricas,-1.6532937742890232,1.6532937742890232
+"cat_low__posicion_tarifaria_bin_(.25,.50]",posicion_tarifaria_bin,Binning,1.390761932819546,1.390761932819546
+cat_low__antiguedad_bin_Q_1,antiguedad_bin,Binning,1.315133132835429,1.315133132835429
+num__ops_std_3m,ops_std_3m,Historia transaccional,1.089353796125025,1.089353796125025
+num__ops_vs_peer,ops_vs_peer,Peers,-1.0504878610922408,1.0504878610922408
+subproducto__subproducto_DISPERSION CON PAGO EN VENTANILLA,subproducto,Categoricas,0.917439142779424,0.917439142779424
+num__ops_pct_change_1m,ops_pct_change_1m,Historia transaccional,0.672578422537141,0.672578422537141
+num__log_grupo_n_convenios,log_grupo_n_convenios,Vinculación,0.6680474166719303,0.6680474166719303
+num__share_ops_grupo,share_ops_grupo,Vinculación,-0.539209909436389,0.539209909436389
+num__gap_anaquel,gap_anaquel,Pricing,0.37807568260911706,0.37807568260911706
+num__gap_anaquel_yj,gap_anaquel_yj,Pricing,-0.2961859156815034,0.2961859156815034
+binary__repricing_flag_t,repricing_flag_t,Repricing,-0.26636515111806736,0.26636515111806736
+num__magnitud_ultimo_repricing,magnitud_ultimo_repricing,Repricing,-0.15743595323573611,0.15743595323573611
+num__delta_tarifa_1m,delta_tarifa_1m,Pricing,0.1411773416432718,0.1411773416432718
+num__delta_tarifa_1m_yj,delta_tarifa_1m_yj,Pricing,-0.14008417800738457,0.14008417800738457
+num__tarifa_anaquel_t,tarifa_anaquel_t,Pricing,0.1380642359793536,0.1380642359793536
+num__tarifa_lag_1,tarifa_lag_1,Pricing,0.06513069257400052,0.06513069257400052
+num__tarifa_vigente_t,tarifa_vigente_t,Pricing,0.025592618918618373,0.025592618918618373
+num__tarifa_vs_peer,tarifa_vs_peer,Peers,-0.002190123930274404,0.002190123930274404

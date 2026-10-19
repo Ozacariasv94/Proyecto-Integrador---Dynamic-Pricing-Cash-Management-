@@ -1,0 +1,11 @@
+hallazgo,valor,evidencia
+Mejor baseline,B1_persistencia,MAE Validation 399.785
+Mejora de persistencia frente a B0,74.164%,Mismo periodo y mismas observaciones
+Ridge A frente a persistencia,-25.527%,MAE Ridge A 501.840
+Ridge B/PCA,1480.207,MAE contractual en Validation
+RMSE Ridge A y persistencia,13146.68 / 13501.97,RMSE en Validation
+Familia mas destacada en permutacion,Historia transaccional,Prueba sobre solucion auditada; interpretacion limitada
+Brecha Train Validation Ridge A,31.77%,MAE con representacion E2 fija
+Folds donde Ridge reducido supera persistencia,0/4,CV temporal con transformaciones reajustadas por fold
+Concentracion de errores Ridge A,70.62%,Participacion del top 1% en error absoluto
+Subproductos no vistos,9213 filas,MAE Ridge A vistos 386.1; nuevos 1630.3
