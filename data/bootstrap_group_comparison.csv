@@ -1,2 +1,0 @@
-modelo,n_grupos,n_boot,delta_MAE_observado,delta_MAE_ic95_inf,delta_MAE_ic95_sup,lift_pct,lift_ic95_inf,lift_ic95_sup
-B2_Ridge_A vs B1_persistencia,678,500,102.05494876493185,34.2248340126363,177.65657609603332,-25.527467499495458,-46.04493911991194,-7.321392504645797
