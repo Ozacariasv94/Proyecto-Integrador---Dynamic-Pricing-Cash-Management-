@@ -1,4 +1,0 @@
-etapa,n_features,n_nuevas,MAE_validation,estado,lift_vs_persistencia_%
-Solo historia,13,13,451.7787204749865,estimado,-13.005461699391429
-Historia + pricing,33,20,453.3311126302461,estimado,-13.393768594543932
-Dataset A completo,390,357,501.8398031260194,estimado,-25.527467499495458
