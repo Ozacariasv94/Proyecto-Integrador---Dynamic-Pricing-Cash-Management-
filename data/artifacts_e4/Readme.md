@@ -1,17 +1,29 @@
-# E4 — Artefactos de modelos alternativos
+# Avance 4 — Artefactos mínimos de la ejecución
 
-Esta carpeta contiene los resultados y modelos generados en la Entrega 4 del proyecto Multipricing.
+El notebook ejecutado presenta las gráficas, las tablas y las conclusiones.
+Esta carpeta guarda exactamente nueve archivos para reutilizar resultados:
 
-| Archivo | Descripción |
-|---|---|
-| `modelo_final.joblib` | Modelo seleccionado por su menor MAE en Validation, guardado para poder reutilizarlo sin volver a entrenarlo. |
-| `modelos_candidatos.joblib` | Los siete modelos candidatos entrenados con todo el conjunto Train, junto con sus componentes necesarios para predecir. |
-| `metricas_modelos.csv` | Resultados de evaluación de los modelos: métricas en Validation, configuraciones de hiperparámetros y desempeño en los tres folds temporales. |
-| `predicciones_validation.parquet` | Valores reales y predicciones de los modelos y referencias sobre el conjunto Validation. Permite recalcular métricas y comparar errores. |
-| `analisis_errores.csv` | Resúmenes de errores por modelo y distintos segmentos, como producto, mes y grupo corporativo, además de errores extremos. |
-| `evidencia_estadistica.csv` | Resultados de las comparaciones estadísticas, incluidos los remuestreos bootstrap por grupo corporativo y sus intervalos de confianza. |
-| `costos_modelos.csv` | Indicadores de costo computacional e interpretabilidad: tiempos, memoria estimada, latencia de inferencia, tamaño de los modelos e importancia de variables. |
-| `configuracion_ejecucion.json` | Configuración y trazabilidad de la corrida: semillas, versiones de librerías, parámetros, modelos seleccionados y referencias a los datos de origen. |
-| `README.md` | Descripción de los archivos contenidos en esta carpeta. |
+- modelo_final.joblib: alternativa de menor MAE observada en Validation.
+- modelos_candidatos.joblib: siete modelos entrenados con Train completo.
+- metricas_modelos.csv: métricas, configuraciones y resultados de los tres folds.
+- predicciones_validation.parquet: predicciones de nueve referencias/candidatos y valores reales.
+- analisis_errores.csv: resúmenes por producto, mes, grupo y tres universos.
+- evidencia_estadistica.csv: bootstrap e intervalos de confianza agrupados.
+- costos_modelos.csv: tiempos, memoria, latencia, tamaño e importancias.
+- configuracion_ejecucion.json: versiones, semillas, modelos y referencias.
+- README.md: esta guía.
 
-**Nota:** Las predicciones y métricas corresponden a Validation; el conjunto Test permanece reservado.
+Cada fila de un archivo consolidado lleva un campo de tipo/nivel.
+Las llaves de grupo y observación exportadas están pseudonimizadas.
+No se incluye información del conjunto Test.
+
+Para recuperar los objetos:
+    import joblib
+    pkg=joblib.load('modelo_final.joblib')
+    candidatos=joblib.load('modelos_candidatos.joblib')['modelos']
+
+Si `pkg` indica `tipo='persistencia'`, la predicción es la columna
+`numero_operaciones` conocida en el mes actual. Si indica `tipo='constante'`,
+se utiliza su `valor_constante`; en otro caso, `pkg` conserva el
+preprocesador y el estimador del modelo. La función de predicción utilizada
+para verificarlos se encuentra en la sección E4-A7 del notebook.
