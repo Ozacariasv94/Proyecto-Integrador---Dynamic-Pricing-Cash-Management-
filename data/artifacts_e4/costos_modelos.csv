@@ -1,0 +1,64 @@
+modelo,n_train_disponible,n_train_usado,entrenamiento_segundos,rss_incremento_max_mb_estimado,advertencias,latencia_p50_ms_por_obs,latencia_p95_ms_por_obs,tamano_joblib_mb,tuning_segundos,MAE,RMSE,MdAE,WAPE,costo_total_segundos,frontera_pareto,tipo_registro,variable,aporte_aprox,metodo
+M1_Ridge,498093.0,498093.0,0.8619350080000459,0.004,,0.6032133749993562,0.8630382343737253,0.01977252960205078,4.4715540010003,2334.4474787872564,26335.372684576087,281.0,150.17127717833677,5.3334890090003455,True,costo,,,
+M2_ElasticNet,498093.0,498093.0,48.10565727099993,101.43,ConvergenceWarning,0.681233562501049,0.8210848242189428,0.019722938537597656,167.03439058399988,2431.7056843396203,26022.710725019457,432.41619873046875,156.42774217769463,215.1400478549998,False,costo,,,
+M3_RandomForest,498093.0,498093.0,106.94815806399993,91.777,,0.38018325781230544,0.4176456992182054,0.08414173126220703,248.4924642430001,526.3666183768593,16496.218517924994,36.30810786662591,33.860323722836135,355.440622307,False,costo,,,
+M4_MLP_residual,498093.0,498093.0,8.953632468000023,0.004,,0.7027996249995283,0.8333996523441911,0.1482706069946289,57.18594004899978,446.40662110251606,17609.172111011158,4.0,28.716624829210808,66.1395725169998,True,costo,,,
+M5_Poisson,498093.0,498093.0,14.009849563999978,202.855,ConvergenceWarning,0.6980526015620825,0.8691236679680969,0.02138805389404297,38.97318483199979,1001.1901278822054,19354.50210932996,20.061370459715256,64.40496158882092,52.983034395999766,True,costo,,,
+M6_LightGBM_residual,498093.0,498093.0,23.54497533300014,0.012,,0.3436999921877515,0.3953808124999014,0.658294677734375,169.55380370399985,374.8316515596004,13466.139698182798,3.2620554553667684,24.11232137499729,193.09877903699999,True,costo,,,
+M7_KNN,498093.0,498093.0,4.73525204800012,0.996,,1.0047588593753431,1.111522453125069,25.405449867248535,40.194196723000005,1143.621762846367,23716.49878185755,8.409300118392407,73.56736114054628,44.929448771000125,True,costo,,,
+M1_Ridge,,,,,,,,,,,,,,,,importancia,numericas__grupo_ops_total_t,2247.103515625,Coeficiente transformado
+M1_Ridge,,,,,,,,,,,,,,,,importancia,numericas__peer_ops_media_t,1233.4537353515625,Coeficiente transformado
+M1_Ridge,,,,,,,,,,,,,,,,importancia,categoricas__producto_DOMICILIACION,888.5296630859375,Coeficiente transformado
+M1_Ridge,,,,,,,,,,,,,,,,importancia,numericas__peer_n_t,-641.7418823242188,Coeficiente transformado
+M1_Ridge,,,,,,,,,,,,,,,,importancia,numericas__antiguedad_meses,629.2197875976562,Coeficiente transformado
+M1_Ridge,,,,,,,,,,,,,,,,importancia,numericas__ops_vs_peer,626.7608032226562,Coeficiente transformado
+M1_Ridge,,,,,,,,,,,,,,,,importancia,categoricas__subproducto_COM DIF CTAS PROPIAS NOK,453.4590759277344,Coeficiente transformado
+M1_Ridge,,,,,,,,,,,,,,,,importancia,categoricas__producto_SWIFT,-439.1434326171875,Coeficiente transformado
+M2_ElasticNet,,,,,,,,,,,,,,,,importancia,categoricas__producto_DOMICILIACION,11811.72265625,Coeficiente transformado
+M2_ElasticNet,,,,,,,,,,,,,,,,importancia,categoricas__subproducto_COM DIF CTAS PROPIAS NOK,8302.9912109375,Coeficiente transformado
+M2_ElasticNet,,,,,,,,,,,,,,,,importancia,categoricas__subproducto_ANUALIDAD,4845.23583984375,Coeficiente transformado
+M2_ElasticNet,,,,,,,,,,,,,,,,importancia,numericas__grupo_ops_total_t,4732.84423828125,Coeficiente transformado
+M2_ElasticNet,,,,,,,,,,,,,,,,importancia,numericas__share_ops_grupo,4035.2607421875,Coeficiente transformado
+M2_ElasticNet,,,,,,,,,,,,,,,,importancia,categoricas__subproducto_DOMICILIACIONES,3669.677734375,Coeficiente transformado
+M2_ElasticNet,,,,,,,,,,,,,,,,importancia,categoricas__subproducto_PAGO DE SERVICIOS POR INTERNET,3061.18603515625,Coeficiente transformado
+M2_ElasticNet,,,,,,,,,,,,,,,,importancia,categoricas__producto_BBVA NET CASH,-2664.654541015625,Coeficiente transformado
+M3_RandomForest,,,,,,,,,,,,,,,,importancia,numericas__numero_operaciones,0.5893395155551651,Importancia nativa
+M3_RandomForest,,,,,,,,,,,,,,,,importancia,numericas__ops_lag_1,0.2063511886641406,Importancia nativa
+M3_RandomForest,,,,,,,,,,,,,,,,importancia,numericas__ops_lag_2,0.1250650124103435,Importancia nativa
+M3_RandomForest,,,,,,,,,,,,,,,,importancia,numericas__ops_media_3m,0.03538922852153045,Importancia nativa
+M3_RandomForest,,,,,,,,,,,,,,,,importancia,numericas__ops_mediana_3m,0.03404361890011151,Importancia nativa
+M3_RandomForest,,,,,,,,,,,,,,,,importancia,numericas__ops_lag_3,0.005540899406753613,Importancia nativa
+M3_RandomForest,,,,,,,,,,,,,,,,importancia,numericas__ops_media_6m,0.0029640625791733616,Importancia nativa
+M3_RandomForest,,,,,,,,,,,,,,,,importancia,numericas__ops_vs_peer,0.00050688049078045,Importancia nativa
+M4_MLP_residual,,,,,,,,,,,,,,,,importancia,numero_operaciones,1714.8133509994634,Permutación descriptiva de 500 predicciones; no afecta entrenamiento
+M4_MLP_residual,,,,,,,,,,,,,,,,importancia,ops_lag_1,0.0770918921270436,Permutación descriptiva de 500 predicciones; no afecta entrenamiento
+M4_MLP_residual,,,,,,,,,,,,,,,,importancia,ops_delta_1m,1.2899917403199765,Permutación descriptiva de 500 predicciones; no afecta entrenamiento
+M4_MLP_residual,,,,,,,,,,,,,,,,importancia,ops_media_3m,0.134067047532767,Permutación descriptiva de 500 predicciones; no afecta entrenamiento
+M4_MLP_residual,,,,,,,,,,,,,,,,importancia,tarifa_vigente,0.022114497598380467,Permutación descriptiva de 500 predicciones; no afecta entrenamiento
+M4_MLP_residual,,,,,,,,,,,,,,,,importancia,grupo_ops_total_t,-0.051038688253498776,Permutación descriptiva de 500 predicciones; no afecta entrenamiento
+M4_MLP_residual,,,,,,,,,,,,,,,,importancia,peer_ops_media_t,0.10322704796689663,Permutación descriptiva de 500 predicciones; no afecta entrenamiento
+M4_MLP_residual,,,,,,,,,,,,,,,,importancia,mes_sin,0.18142739409591968,Permutación descriptiva de 500 predicciones; no afecta entrenamiento
+M5_Poisson,,,,,,,,,,,,,,,,importancia,numericas__share_ops_grupo,1.0914957875089293,Coeficiente transformado
+M5_Poisson,,,,,,,,,,,,,,,,importancia,numericas__grupo_ops_total_t,0.6908389016351477,Coeficiente transformado
+M5_Poisson,,,,,,,,,,,,,,,,importancia,numericas__ops_vs_peer,0.46821101886425814,Coeficiente transformado
+M5_Poisson,,,,,,,,,,,,,,,,importancia,numericas__ops_hist_n_3,0.4662254027061583,Coeficiente transformado
+M5_Poisson,,,,,,,,,,,,,,,,importancia,numericas__ops_lag_1,0.3991325112984254,Coeficiente transformado
+M5_Poisson,,,,,,,,,,,,,,,,importancia,categoricas__subproducto_DOMICILIACIONES,0.38120742723908785,Coeficiente transformado
+M5_Poisson,,,,,,,,,,,,,,,,importancia,numericas__ops_std_3m,0.3723197734126575,Coeficiente transformado
+M5_Poisson,,,,,,,,,,,,,,,,importancia,numericas__ops_media_3m,0.3520420509124194,Coeficiente transformado
+M6_LightGBM_residual,,,,,,,,,,,,,,,,importancia,numericas__meses_desde_inicio,837.0,Importancia nativa
+M6_LightGBM_residual,,,,,,,,,,,,,,,,importancia,numericas__peer_ops_media_t,810.0,Importancia nativa
+M6_LightGBM_residual,,,,,,,,,,,,,,,,importancia,numericas__grupo_n_unidades,683.0,Importancia nativa
+M6_LightGBM_residual,,,,,,,,,,,,,,,,importancia,numericas__mes_sin,672.0,Importancia nativa
+M6_LightGBM_residual,,,,,,,,,,,,,,,,importancia,numericas__numero_operaciones,613.0,Importancia nativa
+M6_LightGBM_residual,,,,,,,,,,,,,,,,importancia,numericas__ops_vs_peer,582.0,Importancia nativa
+M6_LightGBM_residual,,,,,,,,,,,,,,,,importancia,numericas__peer_n_t,578.0,Importancia nativa
+M6_LightGBM_residual,,,,,,,,,,,,,,,,importancia,numericas__ops_lag_2,569.0,Importancia nativa
+M7_KNN,,,,,,,,,,,,,,,,importancia,numero_operaciones,30.827882850605192,Permutación descriptiva de 500 predicciones; no afecta entrenamiento
+M7_KNN,,,,,,,,,,,,,,,,importancia,ops_lag_1,161.82190180374687,Permutación descriptiva de 500 predicciones; no afecta entrenamiento
+M7_KNN,,,,,,,,,,,,,,,,importancia,ops_delta_1m,-2.0566152639576103,Permutación descriptiva de 500 predicciones; no afecta entrenamiento
+M7_KNN,,,,,,,,,,,,,,,,importancia,ops_media_3m,124.42649625953504,Permutación descriptiva de 500 predicciones; no afecta entrenamiento
+M7_KNN,,,,,,,,,,,,,,,,importancia,tarifa_vigente,231.32349253835628,Permutación descriptiva de 500 predicciones; no afecta entrenamiento
+M7_KNN,,,,,,,,,,,,,,,,importancia,grupo_ops_total_t,29.8706797134098,Permutación descriptiva de 500 predicciones; no afecta entrenamiento
+M7_KNN,,,,,,,,,,,,,,,,importancia,peer_ops_media_t,-13.466714956484111,Permutación descriptiva de 500 predicciones; no afecta entrenamiento
+M7_KNN,,,,,,,,,,,,,,,,importancia,mes_sin,84.21475660265662,Permutación descriptiva de 500 predicciones; no afecta entrenamiento

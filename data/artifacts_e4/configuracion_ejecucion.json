@@ -1,0 +1,260 @@
+{
+  "corrida": "20261025T230423Z_629336",
+  "fecha_utc": "2026-10-25T23:23:17.013861+00:00",
+  "modelo_operativo": "M6_LightGBM_residual",
+  "mejor_candidato": "M6_LightGBM_residual",
+  "top2_cv": [
+    "M6_LightGBM_residual",
+    "M4_MLP_residual"
+  ],
+  "semilla": 42,
+  "folds": [
+    [
+      "F1",
+      "2024-09-01",
+      "2024-11-30"
+    ],
+    [
+      "F2",
+      "2024-12-01",
+      "2025-02-28"
+    ],
+    [
+      "F3",
+      "2025-03-01",
+      "2025-05-31"
+    ]
+  ],
+  "splits": {
+    "train": 498093,
+    "validation": 99012
+  },
+  "filas_train_efectivas_por_modelo": {
+    "M1_Ridge": 498093,
+    "M2_ElasticNet": 498093,
+    "M3_RandomForest": 498093,
+    "M4_MLP_residual": 498093,
+    "M5_Poisson": 498093,
+    "M6_LightGBM_residual": 498093,
+    "M7_KNN": 498093
+  },
+  "variable_objetivo": "operaciones_t1",
+  "metrica_primaria": "MAE",
+  "universo_evaluacion": "validation completo",
+  "bootstrap_remuestreos": 1200,
+  "versiones": {
+    "python": "3.13.16",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "sklearn": "1.6.1",
+    "scipy": "1.16.3",
+    "lightgbm": "4.6.0",
+    "joblib": "1.6.0"
+  },
+  "origen_e2": "/content/drive/MyDrive/Colab Notebooks/Proyecto Integrador/artifacts_e2",
+  "base_csv": "/content/drive/MyDrive/Colab Notebooks/Proyecto Integrador/Base_multipricing.csv",
+  "e2_archivos_sha256": {
+    "keys_train.csv": "607c536e6c46c3d9da54eab2b1440f5fd6b81707fe40b5ced7732216233cad8a",
+    "y_train.csv": "3d50cad1aecc42a0e055de05d8e65115308f39e91808784ac8a7d59aa588d94c",
+    "keys_validation.csv": "40892290bee5aacfe80d3bf8096d1ce1d19c8e715ec5cdd7e84e5223767ad5b1",
+    "y_validation.csv": "e4eda06c65fd3b35fd7cd408c988159fa1999c2576d9c574d609f2cba3d0f349"
+  },
+  "base_csv_sha256": "c85222bb48591d240546f81b65ae3be03b756bc8ec057d76bc1634b23427f248",
+  "mejores_parametros": {
+    "M1_Ridge": {
+      "alpha": 100.0
+    },
+    "M2_ElasticNet": {
+      "alpha": 0.1,
+      "l1_ratio": 0.8
+    },
+    "M3_RandomForest": {
+      "max_depth": 9,
+      "max_features": 0.6,
+      "min_samples_leaf": 70,
+      "n_estimators": 18
+    },
+    "M4_MLP_residual": {
+      "alpha": 0.05,
+      "hidden_layer_sizes": [
+        16
+      ],
+      "learning_rate_init": 0.001
+    },
+    "M5_Poisson": {
+      "alpha": 50.0
+    },
+    "M6_LightGBM_residual": {
+      "colsample_bytree": 0.7357,
+      "learning_rate": 0.09999,
+      "max_depth": -1,
+      "min_child_samples": 160,
+      "n_estimators": 154,
+      "num_leaves": 127,
+      "reg_alpha": 0.03998,
+      "reg_lambda": 0.54444
+    },
+    "M7_KNN": {
+      "n_neighbors": 15,
+      "weights": "distance"
+    }
+  },
+  "configuraciones_iniciales": {
+    "M1_Ridge": [
+      {
+        "alpha": 10.0
+      },
+      {
+        "alpha": 100.0
+      }
+    ],
+    "M2_ElasticNet": [
+      {
+        "alpha": 0.01,
+        "l1_ratio": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "l1_ratio": 0.8
+      }
+    ],
+    "M3_RandomForest": [
+      {
+        "n_estimators": 12,
+        "max_depth": 7,
+        "min_samples_leaf": 100,
+        "max_features": 0.5
+      },
+      {
+        "n_estimators": 18,
+        "max_depth": 9,
+        "min_samples_leaf": 70,
+        "max_features": 0.6
+      }
+    ],
+    "M4_MLP_residual": [
+      {
+        "hidden_layer_sizes": [
+          16
+        ],
+        "alpha": 0.05,
+        "learning_rate_init": 0.001
+      },
+      {
+        "hidden_layer_sizes": [
+          24
+        ],
+        "alpha": 0.1,
+        "learning_rate_init": 0.0015
+      }
+    ],
+    "M5_Poisson": [
+      {
+        "alpha": 10.0
+      },
+      {
+        "alpha": 50.0
+      }
+    ],
+    "M6_LightGBM_residual": [
+      {
+        "n_estimators": 150,
+        "num_leaves": 63,
+        "max_depth": -1,
+        "learning_rate": 0.05,
+        "min_child_samples": 75,
+        "reg_alpha": 0.04,
+        "reg_lambda": 0.55,
+        "colsample_bytree": 0.85
+      },
+      {
+        "n_estimators": 154,
+        "num_leaves": 127,
+        "max_depth": -1,
+        "learning_rate": 0.09999,
+        "min_child_samples": 160,
+        "reg_alpha": 0.03998,
+        "reg_lambda": 0.54444,
+        "colsample_bytree": 0.7357
+      }
+    ],
+    "M7_KNN": [
+      {
+        "n_neighbors": 15,
+        "weights": "distance"
+      },
+      {
+        "n_neighbors": 31,
+        "weights": "uniform"
+      }
+    ]
+  },
+  "configuraciones_adicionales_top2": {
+    "M1_Ridge": [
+      {
+        "alpha": 30.0
+      }
+    ],
+    "M2_ElasticNet": [
+      {
+        "alpha": 0.03,
+        "l1_ratio": 0.7
+      }
+    ],
+    "M3_RandomForest": [
+      {
+        "n_estimators": 24,
+        "max_depth": 10,
+        "min_samples_leaf": 55,
+        "max_features": 0.65
+      }
+    ],
+    "M4_MLP_residual": [
+      {
+        "hidden_layer_sizes": [
+          20
+        ],
+        "alpha": 0.05,
+        "learning_rate_init": 0.0012
+      }
+    ],
+    "M5_Poisson": [
+      {
+        "alpha": 25.0
+      }
+    ],
+    "M6_LightGBM_residual": [
+      {
+        "n_estimators": 165,
+        "num_leaves": 127,
+        "max_depth": -1,
+        "learning_rate": 0.08,
+        "min_child_samples": 160,
+        "reg_alpha": 0.04,
+        "reg_lambda": 0.6,
+        "colsample_bytree": 0.75
+      }
+    ],
+    "M7_KNN": [
+      {
+        "n_neighbors": 21,
+        "weights": "distance"
+      }
+    ]
+  },
+  "normalizacion_monedas": {
+    "BBVA NET CASH": "MXP cuando el valor original es nulo"
+  },
+  "identificadores_exportados": "seudónimos HMAC-SHA256 por ejecución; clave no exportada",
+  "archivos_finales": [
+    "modelo_final.joblib",
+    "modelos_candidatos.joblib",
+    "metricas_modelos.csv",
+    "predicciones_validation.parquet",
+    "analisis_errores.csv",
+    "evidencia_estadistica.csv",
+    "costos_modelos.csv",
+    "configuracion_ejecucion.json",
+    "README.md"
+  ]
+}
